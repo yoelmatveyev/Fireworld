@@ -8,12 +8,12 @@ Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone 1x1
 
 # Rule
 
-Fireworld operates in the Moore neighbourhood. Cell have 3 states: dead, dying and alife.
+Fireworld operates in the Moore neighbourhood. Cell have 3 states: empty, dying and alife.
 
-A dead cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, and one other cell adjecent to it in diagonal. To get born, it needs two parents of opposite sex, so to speak. 
+A empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell adjecent to it in diagonal. To get born, it needs two parents of opposite sex, so to speak. All other cells in its neighbourhood must be empty (not dying).
 
-A live cell survives either if there are no other live cells in the neighbourhood or there are two live cells horizontally or vertically adjacent to it, and one live cell adjecent to it in diagonal. To make another comparison, in order to survive a cell must be completely indivisualistic or moderately collectivist
+A live cell survives either if there are no other live cells in the neighbourhood or there are two live cells horizontally or vertically adjacent to it, while one live cell adjecent to it in diagonal. To make another comparison, in order to survive a cell must be completely indivisualistic or moderately collectivist. In terms of survival, dying cells count ad dead.
 
-A dead cell becomes half-dead in the next turn and dies in the second turn.
+A dying cell becomes dead in the next turn.
 
 # Copyright by Yoel Matveyev 2002-2009
