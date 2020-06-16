@@ -16,7 +16,7 @@ A live cell survives either if there are no other live cells in the neighbourhoo
 
 A dead cell becomes empty in the next turn.
 
-This rule may also be abbreviated in Golly as **03ajkr/2ak/3**.
+This rule may also be abbreviated in Golly aimply as **03ajkr/2ak/3**.
 
 
 # Copyright by Yoel Matveyev 2002-2009
