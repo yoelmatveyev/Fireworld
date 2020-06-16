@@ -1,0 +1,40 @@
+@RULE Fireworld
+
+@TABLE
+
+# A 3-state rule that produces simple patterns capable of universal computation
+
+# Copyright by Yoel Matveyev, 2002-2009
+
+n_states:3
+neighborhood:Moore
+symmetries:rotate4reflect
+var a={0,2}
+var b={0,2}
+var c={0,2}
+var d={0,2}
+var e={0,2}
+var f={0,2}
+var g={0,2}
+var h={0,2}
+var A={0,1,2}
+var B={0,1,2}
+var C={0,1,2}
+var D={0,1,2}
+var E={0,1,2}
+var F={0,1,2}
+var G={0,1,2}
+var H={0,1,2}
+1,a,b,c,d,e,f,g,h,1
+0,1,1,a,b,c,d,e,f,1
+0,1,a,b,1,c,d,e,f,1
+1,1,1,1,a,b,c,d,e,1
+1,1,a,1,1,b,c,d,e,1
+1,1,1,a,b,1,c,d,e,1
+1,1,a,1,b,c,1,d,e,1
+1,1,a,1,b,c,d,e,1,1
+1,A,B,C,D,E,F,G,H,2
+2,A,B,C,D,E,F,G,H,0
+
+
+
