@@ -1,5 +1,6 @@
 [M2] (golly 3.3)
-#R 03ajkr/2ak/3
+#R Fireworld
+# Yoel Matveyev 2020
 1 0 1 0 2
 2 0 0 0 1
 3 0 0 0 2
