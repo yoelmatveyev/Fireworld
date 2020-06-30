@@ -1,6 +1,6 @@
 # Fireworld
 
-I invented this rule in 2002 while playing with Mcell (Mirek's Cellebration), a great cellular automata playground. To my knowledge, for a long while it was the only program of its kind, where you could set your own rules in various flexible ways. Now, since old Mcell files and rules are convertable to Golly (sometimes by hand or by a custom script though), I decided to start converting and publicizing my old patterns.
+I invented this rule in 2002 while playing with Mcell (Mirek's Cellebration), a great cellular automata playground made by Mirosław (Mirek) Wójtowicz. To my knowledge, for a long while it was the only program of its kind, where you could set your own rules in various flexible ways. Now, since old Mcell files and rules are convertable to Golly (sometimes by hand or by a custom script though), I decided to start converting and publicizing my old patterns.
 
 Originally I called this rule "Minimum", as it was deliberately meant to be "minimalistic" in its survival/birth mechanism. Soon I had discovered that this rule must be Turing-complete, as it exhibits in its own way the same complexity as Brian Silverman's Wireworld (hence the new name of my rule). Although I did not have time to build a full computer model in Fireworld, patterns provided in this repository (logic gates, memory cells etc.) should serve as s sufficient reason to believe that it is possible.
 
