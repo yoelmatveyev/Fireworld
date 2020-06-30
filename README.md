@@ -10,7 +10,7 @@ Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone 1x1
 
 # Rule
 
-Fireworld operates in the Moore neighbourhood. Cells may have 3 states: empty, dead and alife.
+Fireworld operates in the Moore neighbourhood. Cells may have 3 states: empty, dead and alive.
 
 A empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell is adjecent to it in diagonal. To get born, so to speak, the cell needs two parents of opposite sex. If some other cells in its neighbourhood are dead, they count as empty and don't interfere with the birth.
 
