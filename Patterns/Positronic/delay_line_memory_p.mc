@@ -1,5 +1,6 @@
 [M2] (golly 3.3b1)
 #R Positronic
+# Yoel Matveyev 2020
 1 0 0 0 1
 2 1 0 0 0
 1 0 0 1 0
