@@ -28,7 +28,7 @@ Fireworld operates in the Moore neighbourhood. Cells may have 3 states: empty, a
 
 A empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell is adjecent to it in diagonal. To get born, so to speak, the cell needs two parents of opposite sex. If some other cells in its neighbourhood are dead, they count as empty and don't interfere with the birth.
 
-A live cell survives either if there are no other live cells in its neighbourhood or there are exactly three live cells adjacent to it: two adjacent horizontally or vertically, while the third one is adjecent diagonally. In terms of survival, dead cells also count as empty and don't matter.
+A live cell survives either if there are no other live cells in its neighbourhood or there are exactly three live cells adjacent to it in a particular way: two adjacent horizontally or vertically, while the third one is adjecent diagonally. In terms of survival, dead cells also count as empty and don't matter.
 
 A dead cell becomes empty in the next generation.
 
