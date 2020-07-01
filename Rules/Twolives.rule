@@ -1,0 +1,59 @@
+@RULE Twolives
+
+# A new variety of Conway's Game of Life dedicated to RIP John Horton Conway's memory.
+
+# In this version, there exist two types of live cells of opposite "sign".
+# Two identically behaving "life forms" may coexist and interact with each other.
+
+# The rules of survival and birth are usual, but strictly symmetrical.
+# A "negative" cell survives, iff it has 2 or 3 "negative" live neighbours.
+# A "negative" cell is born, iff it has 3 "negative" live neighbours.  
+
+# Importantly, the number of neighbours is counted as the total sum of their numerical values, which may be 1 or -1. 
+# Thus, a "positive" cell may be born, if surrounded by 5 "positive" and 2 "negative" neighbours.
+# A "negative" cell survives, if surrounded by 5 "negative" and 3 "positive" cells etc.
+
+# Copyright by Yoel Matveyev 2020
+
+@COLORS
+
+0 0 0 0
+1 255 0 0 
+2 0 0 255
+
+@TABLE
+
+n_states:3
+neighborhood:Moore
+symmetries:permute
+var A={0,1,2}
+var B={0,1,2}
+var C={0,1,2}
+var D={0,1,2}
+var E={0,1,2}
+var F={0,1,2}
+var G={0,1,2}
+var H={0,1,2}
+
+1,0,0,0,0,0,0,1,1,1
+1,2,0,0,0,0,1,1,1,1
+1,2,2,0,0,1,1,1,1,1
+1,2,2,2,1,1,1,1,1,1
+2,2,2,0,0,0,0,0,0,2
+2,2,2,2,0,0,0,0,1,2
+2,2,2,2,2,0,0,1,1,2
+2,2,2,2,2,2,1,1,1,2
+1,0,0,0,0,0,1,1,1,1
+1,2,0,0,0,1,1,1,1,1
+1,2,2,0,1,1,1,1,1,1
+2,2,2,2,0,0,0,0,0,2
+2,2,2,2,2,0,0,0,1,2
+2,2,2,2,2,2,0,1,1,2
+0,0,0,0,0,0,1,1,1,1
+0,2,0,0,0,1,1,1,1,1
+0,2,2,0,1,1,1,1,1,1
+0,2,2,2,0,0,0,0,0,2
+0,2,2,2,2,0,0,0,1,2
+0,2,2,2,2,2,0,1,1,2
+1,A,B,C,D,E,F,G,H,0
+2,A,B,C,D,E,F,G,H,0
