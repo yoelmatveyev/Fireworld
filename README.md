@@ -46,4 +46,5 @@ As long as there only positive or negative cells around, the system behaves 100%
 The name of the rule is, of course, inspired by Lieutenant Data's positronic brain.
 
 
-# Copyright by Yoel Matveyev 2002
+# Fireworld: Copyright by Yoel Matveyev 2002
+# Twolives and Positronic: Copyright by Yoel Matveyev 2020
