@@ -4,7 +4,7 @@
 
 # A 3-state rule that produces simple patterns capable of universal computation
 
-# Copyright by Yoel Matveyev, 2002-2009
+# Copyright by Yoel Matveyev 2002
 
 n_states:3
 neighborhood:Moore
