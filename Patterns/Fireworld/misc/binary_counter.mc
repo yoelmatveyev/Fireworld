@@ -1,6 +1,6 @@
 [M2] (golly 3.3)
 #R Fireworld
-# Copyright Yoel Matveyev 2002-2009
+# Yoel Matveyev 2002-2009
 1 0 0 1 0
 2 0 0 1 0
 3 0 0 2 0
