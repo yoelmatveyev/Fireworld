@@ -27,13 +27,13 @@ n_states:3
 neighborhood:Moore
 symmetries:permute
 var A={0,1,2}
-var B={0,1,2}
-var C={0,1,2}
-var D={0,1,2}
-var E={0,1,2}
-var F={0,1,2}
-var G={0,1,2}
-var H={0,1,2}
+var B=A
+var C=A
+var D=A
+var E=A
+var F=A
+var G=A
+var H=A
 
 1,0,0,0,0,0,0,1,1,1
 1,2,0,0,0,0,1,1,1,1
