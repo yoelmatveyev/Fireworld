@@ -22,17 +22,15 @@ Although I did not have time to build a full computer model in Fireworld, patter
 
 Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone 1x1 blocks and Life-like 2x2 blocks surrounded by supporting 1x1 blocks. Tiny orthogonal ships, guns, puffers, rakes, breeders are the common natural inhabitants of this universe. As these structures interact with each other in complex ways, the behavior of this rule combines Life-like and Wireworld-like features.
 
-# Rule
+**Fireworld operates in the Moore neighborhood. Cells may have 3 states: empty, live and dead.
 
-Fireworld operates in the Moore neighborhood. Cells may have 3 states: empty, live and dead.
+**A empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell is adjacent to it in diagonal.
 
-A empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell is adjacent to it in diagonal.
+**A live cell survives either if there are no other live cells in its neighborhood or there are exactly three live cells adjacent to it in a particular way: two adjacent orthogonally (horizontally or vertically), while the third one is adjacent in diagonal.
 
-A live cell survives either if there are no other live cells in its neighborhood or there are exactly three live cells adjacent to it in a particular way: two adjacent orthogonally (horizontally or vertically), while the third one is adjacent in diagonal.
+**Dead cells count as empty and don't interfere with the birth or survival, if they are present in the neighborhood. They do prevent a cell to get born in their place though, as usual in the "Generations" rules.
 
-Dead cells count as empty and don't interfere with the birth or survival, if they are present in the neighborhood. They do prevent a cell to get born in their place though, as usual in the "Generations" rules.
-
-A dead cell becomes empty in the next generation.
+**A dead cell becomes empty in the next generation.
 
 This rule may be abbreviated in Golly simply as **03ajkr/2ak/3**.
 
