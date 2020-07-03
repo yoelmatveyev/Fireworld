@@ -10,13 +10,13 @@ n_states:3
 neighborhood:Moore
 symmetries:rotate4reflect
 var a={0,2}
-var b={0,2}
-var c={0,2}
-var d={0,2}
-var e={0,2}
-var f={0,2}
-var g={0,2}
-var h={0,2}
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
 var A={0,1,2}
 var B={0,1,2}
 var C={0,1,2}
@@ -35,6 +35,3 @@ var H={0,1,2}
 1,1,a,1,b,c,d,e,1,1
 1,A,B,C,D,E,F,G,H,2
 2,A,B,C,D,E,F,G,H,0
-
-
-
