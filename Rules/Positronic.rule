@@ -21,21 +21,21 @@ n_states:5
 neighborhood:Moore
 symmetries:rotate4reflect
 var a={0,2,4}
-var b={0,2,4}
-var c={0,2,4}
-var d={0,2,4}
-var e={0,2,4}
-var f={0,2,4}
-var g={0,2,4}
-var h={0,2,4}
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
 var A={0,1,2,3,4}
-var B={0,1,2,3,4}
-var C={0,1,2,3,4}
-var D={0,1,2,3,4}
-var E={0,1,2,3,4}
-var F={0,1,2,3,4}
-var G={0,1,2,3,4}
-var H={0,1,2,3,4}
+var B=A
+var C=A
+var D=A
+var E=A
+var F=A
+var G=A
+var H=A
 1,a,b,c,d,e,f,g,h,1
 1,a,3,c,1,e,3,g,1,1
 1,a,3,c,d,e,1,g,h,1
