@@ -22,6 +22,6 @@ A dead cell becomes empty in the next generation.
 
 This rule may be abbreviated in Golly simply as **03ajkr/2ak/3**.
 
-For **other rules** and the **generator of rule tables** read the files **Other_rules.md** and **Ruletable_generator.md**.
+For **other rules** and the **generator of rule tables** read the files **Other_rules.md**, **Multistate_cyclical_CA.md** and **Ruletable_generator.md**.
 
 Copyright by Yoel Matveyev 2002
