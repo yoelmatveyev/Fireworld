@@ -53,5 +53,3 @@ The name of the rule is, of course, inspired by Lieutenant Data's positronic bra
 
 # Fireworld: Copyright by Yoel Matveyev 2002
 # Twolives and Positronic: Copyright by Yoel Matveyev 2020
-
-# The GNU General Public License v3.0
