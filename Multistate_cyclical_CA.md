@@ -45,7 +45,9 @@ Note that the number of possible meaningful birth rules is much shorter that the
 The reason behind is that while T2a, T02b and T002c result exactly in the same birth rule, T-2b,T-02b and T-002b give three distinct survival rules:
 
 a->a->b;b->b->c;c->c->a
+
 a->b->b;b->c->c;c->a->a
+
 a->c->b;b->a->c;c->b->c
 
 
