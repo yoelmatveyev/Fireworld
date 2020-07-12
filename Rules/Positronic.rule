@@ -6,6 +6,7 @@
 # "Negative" cells are born and survive according to the same rules as in Fireworld, except that the respective number of live neighbours must also be negative. 
 
 # Copyright by Yoel Matveyev, 2020
+# The GNU General Public License v3.0
 
 @COLORS
 
