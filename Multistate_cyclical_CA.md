@@ -48,6 +48,6 @@ a->a->b;b->b->c;c->c->a
 
 a->b->b;b->c->c;c->a->a
 
-a->c->b;b->a->c;c->b->c
+a->c->b;b->a->c;c->b->a
 
 
