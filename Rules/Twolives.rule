@@ -13,7 +13,8 @@
 # Thus, a "positive" cell may be born, if surrounded by 5 "positive" and 2 "negative" neighbours.
 # A "negative" cell survives, if surrounded by 5 "negative" and 3 "positive" cells etc.
 
-# Copyright by Yoel Matveyev 2020
+# Copyright by Yoel Matveyev, 2020
+# The GNU General Public License v3.0
 
 @COLORS
 
