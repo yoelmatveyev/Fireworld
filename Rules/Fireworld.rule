@@ -11,6 +11,7 @@
 # A 3-state rule that produces simple patterns capable of universal computation
 
 # Copyright by Yoel Matveyev, 2002
+# The GNU General Public License v3.0
 
 n_states:3
 neighborhood:Moore
