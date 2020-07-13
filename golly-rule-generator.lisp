@@ -267,9 +267,9 @@
 ;; Create and save a rule table in your '~/.golly/Rules/' directory
 ;; If the rulename is not given, the file will be names as the ruleline 
 
-(defun save-rule-table (string &key comment rulename)
+(defun save-rule-table (string &key path comment rulename)
   (with-open-file
-      (stream (concatenate 'string "~/.golly/Rules/" rulename ".rule")
+      (stream (concatenate 'string (if path path "~/.golly/Rules/") rulename ".rule")
 	      :direction :output :if-exists :supersede)
     (print-rule-table string :comment comment :rulename rulename :stream stream))
   t)
