@@ -51,3 +51,12 @@ a->b->b;b->c->c;c->a->a
 a->c->b;b->a->c;c->b->a
 
 
+The "r" abbreviation, valid only for survival rules, defines a common pattern for such similar rules. For example, T-12ar is the same as T-12a0012a201a, and denotes:
+
+a->abb->a;b->bcc->b;c->caa->c
+
+a->bcc->a;b->caa->b;c->abb->c
+
+a->aac->a;b->bba->b;c->ccb->c
+
+The "n" abbreviation,only allowed in survival situations, denotes rules in which a cell survives without transformation, when surrouned by n cells of whatever state.
