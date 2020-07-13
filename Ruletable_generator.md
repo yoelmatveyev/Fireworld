@@ -24,4 +24,6 @@ Your rule table file will be called Myrule1.rule. You can provide a different pa
 
 The function (gen-rules n) gives the list of all distinct and consistent birth rules for an automation with n states. (gen-rules n :b nil) gives the longer list of survival and transformation rules.
 
+For 2-state tables, the colors in the table will be red anf blue. For 3-states tables, the colors will be red, green and blue. Not custom color scheme is defined for tables with higher numbers of states.
+
 About the notation of multistate cyclical rules, read **Multistate_cyclical_CA.md**
