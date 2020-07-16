@@ -1,0 +1,55 @@
+@RULE Positronic0
+
+# A 5-state rule that produces simple patterns capable of universal computation, generic symmetrical extension of Fireworld (03ajkr/2ak/3), in which any pattern with states 1 and 3 reversed acts exactly the same, and simple combinations of dots of the opposite states act as stable reflectors, ship mulpliers, atbitrary perod guns, on/off switchable guns etc.
+
+# Copyright by Yoel Matveyev, 2020
+# The GNU General Public License v3.0
+
+@COLORS
+
+0 0 0 0
+1 255 0 0
+2 255 255 0
+3 0 0 255
+4 0 255 255
+
+@TABLE
+
+n_states:5
+neighborhood:Moore
+symmetries:rotate4reflect
+var a={0,2,4}
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+var i={1,3}
+var A={0,1,2,3,4}
+var B=A
+var C=A
+var D=A
+var E=A
+var F=A
+var G=A
+var H=A
+
+# Generic symmetrical extension of Fireworld
+
+0,i,i,a,b,c,d,e,f,i
+0,i,a,b,i,c,d,e,f,i
+i,a,b,c,d,e,f,g,h,i
+i,i,i,i,a,b,c,d,e,i
+i,i,a,i,i,b,c,d,e,i
+i,i,i,a,b,i,c,d,e,i
+i,i,a,i,b,c,i,d,e,i
+i,i,a,i,b,c,d,e,i,i
+
+# Clean-up
+
+1,A,B,C,D,E,F,G,H,2
+2,A,B,C,D,E,F,G,H,0
+3,A,B,C,D,E,F,G,H,4
+4,A,B,C,D,E,F,G,H,0

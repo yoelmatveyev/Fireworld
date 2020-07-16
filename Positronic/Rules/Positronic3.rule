@@ -1,0 +1,153 @@
+@RULE Positronic3
+
+# A 5-state rule that produces simple patterns capable of universal computation, symmetrical extension of Fireworld (03ajkr/2ak/3), in which any pattern with states 1 and 3 reversed acts exactly the same and a dot if the opposite state acts as a stable reflector
+
+# Copyright by Yoel Matveyev, 2020
+# The GNU General Public License v3.0
+
+@COLORS
+
+0 0 0 0
+1 255 0 0
+2 255 255 0
+3 0 0 255
+4 0 255 255
+
+@TABLE
+
+n_states:5
+neighborhood:Moore
+symmetries:rotate4reflect
+var a={0,2,4}
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+var i={1,3}
+var j={2,4}
+var A={0,1,2,3,4}
+var B=A
+var C=A
+var D=A
+var E=A
+var F=A
+var G=A
+var H=A
+
+# Generic symmetrical extension of Fireworld
+
+0,i,i,a,b,c,d,e,f,i
+0,i,a,b,i,c,d,e,f,i
+i,a,b,c,d,e,f,g,h,i
+i,i,i,i,a,b,c,d,e,i
+i,i,a,i,i,b,c,d,e,i
+i,i,i,a,b,i,c,d,e,i
+i,i,a,i,b,c,i,d,e,i
+i,i,a,i,b,c,d,e,i,i
+
+# A cell of state 1 or 3 is born, if surrounded by 1 orthogonal and 1 diagonal neighbour of the same state, and 1 neighbour of the opposite state
+
+0,1,1,3,d,e,f,g,h,1
+0,3,3,1,d,e,f,g,h,3
+0,1,b,c,1,e,f,3,h,1
+0,3,b,c,3,e,f,1,h,3
+0,a,1,3,d,1,f,g,h,1
+0,a,3,1,d,3,f,g,h,3
+0,1,b,c,1,3,f,g,h,1
+0,3,b,c,3,1,f,g,h,3
+0,a,1,1,d,3,f,g,h,1
+0,a,3,3,d,1,f,g,h,3
+0,1,1,c,d,3,f,g,h,1
+0,3,3,c,d,1,f,g,h,3
+0,1,1,c,3,e,f,g,h,1
+0,3,3,c,1,e,f,g,h,3
+0,a,1,1,3,e,f,g,h,1
+0,a,3,3,1,e,f,g,h,3
+0,a,1,c,3,1,f,g,h,1
+0,a,3,c,1,3,f,g,h,3
+0,a,1,c,3,e,f,1,h,1
+0,a,3,c,1,e,f,3,h,3
+0,1,1,c,d,e,3,g,h,1
+0,3,3,c,d,e,1,g,h,3
+0,1,3,c,d,e,1,g,h,1
+0,3,1,c,d,e,3,g,h,3
+
+# A cell is born if surrounded by 1 orthogonal and 1 diagonal neighbour of the opposites state and at least 2 dead neighbours
+
+1,1,3,0,0,0,0,0,0,2
+1,3,1,0,0,0,0,0,0,2
+1,1,0,0,3,0,0,0,0,2
+1,3,0,0,1,0,0,0,0,2
+1,1,3,j,0,0,0,0,0,2
+1,1,3,0,j,0,0,0,0,2
+1,1,3,0,0,j,0,0,0,2
+1,1,3,0,0,0,j,0,0,2
+1,1,3,0,0,0,0,j,0,2
+1,1,3,0,0,0,0,0,j,2
+1,3,1,j,0,0,0,0,0,2
+1,3,1,0,j,0,0,0,0,2
+1,3,1,0,0,j,0,0,0,2
+1,3,1,0,0,0,j,0,0,2
+1,3,1,0,0,0,0,j,0,2
+1,3,1,0,0,0,0,0,j,2
+1,1,j,0,3,0,0,0,0,2
+1,1,0,j,3,0,0,0,0,2
+1,1,0,0,3,j,0,0,0,2
+1,1,0,0,3,0,j,0,0,2
+1,1,0,0,3,0,0,j,0,2
+1,1,0,0,3,0,0,0,j,2
+1,3,j,0,1,0,0,0,0,2
+1,3,0,j,1,0,0,0,0,2
+1,3,0,0,1,j,0,0,0,2
+1,3,0,0,1,0,j,0,0,2
+1,3,0,0,1,0,0,j,0,2
+1,3,0,0,1,0,0,0,j,2
+3,1,3,0,0,0,0,0,0,4
+3,3,1,0,0,0,0,0,0,4
+3,1,0,0,3,0,0,0,0,4
+3,3,0,0,1,0,0,0,0,4
+3,1,3,j,0,0,0,0,0,4
+3,1,3,0,j,0,0,0,0,4
+3,1,3,0,0,j,0,0,0,4
+3,1,3,0,0,0,j,0,0,4
+3,1,3,0,0,0,0,j,0,4
+3,1,3,0,0,0,0,0,j,4
+3,3,1,j,0,0,0,0,0,4
+3,3,1,0,j,0,0,0,0,4
+3,3,1,0,0,j,0,0,0,4
+3,3,1,0,0,0,j,0,0,4
+3,3,1,0,0,0,0,j,0,4
+3,3,1,0,0,0,0,0,j,4
+3,1,j,0,3,0,0,0,0,4
+3,1,0,j,3,0,0,0,0,4
+3,1,0,0,3,j,0,0,0,4
+3,1,0,0,3,0,j,0,0,4
+3,1,0,0,3,0,0,j,0,4
+3,1,0,0,3,0,0,0,j,4
+3,3,j,0,1,0,0,0,0,4
+3,3,0,j,1,0,0,0,0,4
+3,3,0,0,1,j,0,0,0,4
+3,3,0,0,1,0,j,0,0,4
+3,3,0,0,1,0,0,j,0,4
+3,3,0,0,1,0,0,0,j,4
+i,1,3,c,d,e,f,g,h,i
+i,3,1,c,d,e,f,g,h,i
+i,1,b,c,3,e,f,g,h,i
+i,3,b,c,1,e,f,g,h,i
+
+# A cell survives,if it has 1 orthogonal and 1 diagonal neighbour of the opposite state
+
+1,3,3,c,d,e,f,g,h,1
+3,1,1,c,d,e,f,g,h,3
+1,3,b,c,3,e,f,g,h,1
+3,1,b,c,1,e,f,g,h,3
+
+# Clean-up
+
+1,A,B,C,D,E,F,G,H,2
+2,A,B,C,D,E,F,G,H,0
+3,A,B,C,D,E,F,G,H,4
+4,A,B,C,D,E,F,G,H,0
