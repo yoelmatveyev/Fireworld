@@ -18,7 +18,7 @@ Twolives is just of many possible cyclical multistate extensions of Conway's Gam
 
 # Positronic Rule Family
 
-As a follow-up to the above mentioned experiments with multistate rules and extensions of Conway's Game of Life, I started experimeting with symmetrical versions of Fireworld. There is a large family of 5-state rule to explore, which I call Positronic (named after Lieutenant Data's positronic brain, of course). Every rule in this family has 2 parallel systems 1 live state and 1 corresponding dead state. Each system acts on its own exactly the same as Fireworld, but when they interact, additional rules are added in a way that must preserve the symmetry, meaning that if all states in any pattern are replaces by their opposites, the behavoir of the pattern doesn't change.
+As a follow-up to the above mentioned experiments with multistate rules and extensions of Conway's Game of Life, I started experimeting with symmetrical versions of Fireworld. There is a large family of 5-state rules to explore, which I call Positronic (named after Lieutenant Data's positronic brain, of course). Every rule in this family has 2 parallel systems 1 live state and 1 corresponding dead state. Each system acts on its own exactly the same as Fireworld, but when they interact, additional rules are added in a way that must preserve the symmetry, meaning that if all states in any pattern are replaces by their opposites, the behavoir of the pattern doesn't change.
 
 Such "interstate" rules allow for creating still lifes, stable reflectors as simple a single dot of the opposite state, arbitrary period guns, guns controlled by an on/off switch and other interesting patterns.
 
