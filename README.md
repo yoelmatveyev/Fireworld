@@ -24,4 +24,4 @@ This rule may be abbreviated in Golly simply as **03ajkr/2ak/3**.
 
 For **other rules** and the **generator of rule tables** read the files **Other_rules.md**, **Multistate_cyclical_CA.md** and **Ruletable_generator.md**.
 
-# Fireworld: Copyright by Yoel Matveyev 2002
+# Fireworld: Copyright by Yoel Matveyev, 2002
