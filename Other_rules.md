@@ -14,16 +14,15 @@ A "negative" cell survives, if surrounded by 5 "negative" and 3 "positive" cells
 
 Of course, since these "two lives" are completely symmetrical, there is nothing inherently "negative" or "positive" in any of them.
 
-# Positronic
+Twolives is just of many possible cyclical multistate extensions of Conway's Game of Life, denoted as **D3a41a52a-2a31a42a53a3a41a52a** in my notation of cyclical multistate rules (see below).
 
-As a follow-up to the above mentioned symmetrical variety of Conway's Game of Life, I added a symmetrical version of Fireworld. It's a 5-state rule that allows to
-"positively" and "negatively" charged worlds of "matter" and "antimatter" to behave identically and interact with each other.
+# Positronic Rule Family
 
-The rules are exactly the same as in Fireworld, except that the number of orthogonal neighbours and the number of diagonal neighbours are counted separately as **the total sum of values** of the surrounding live cells (either 1 or -1). "Negative" cells are born and survive according to the same rules as in Fireworld, except that the respective number of live neighbours must also be negative.
+As a follow-up to the above mentioned experiments with multistate rules and extensions of Conway's Game of Life, I started experimeting with symmetrical versions of Fireworld. There is a large family of 5-state rule to explore, which I call Positronic (named after Lieutenant Data's positronic brain, of course). Every rule in this family has 2 parallel systems 1 live state and 1 corresponding dead state. Each system acts on its own exactly the same as Fireworld, but when they interact, additional rules are added in a way that must preserve the symmetry, meaning that if all states in any pattern are replaces by their opposites, the behavoir of the pattern doesn't change.
 
-As long as there only positive or negative cells around, the system behaves 100% identically. The list of possible posititions of possible "positive" and "negative" orthogonal and diagonal neighbours was generated and verified by a computer algorithm. "Negative" cells are encoded as State 3; Dead "negative" cells are encoded as State 4.
+Such "interstate" rules allow for creating still lifes, stable reflectors as simple a single dot of the opposite state, arbitrary period guns, guns controlled by an on/off switch and other interesting patterns.
 
-The name of the rule is, of course, inspired by Lieutenant Data's positronic brain.
+Read more in **Positronic.md**.
 
 # Cyclical multistate rules
 
@@ -42,4 +41,4 @@ Thing become even more complicated, when it comes to survival rules. A surviving
 
 Writing such rule tables by hand is a laborous task prone to errors. Therefore I developed a notation for such rules and wrote a Lisp program that produced the corresponding rule files. For the time being, only "totalistic", i.e. permutable rules, in which the position of the neighbors doesn't matter, are taken into consideration.
 
-In principle, multistate cyclical rules may be defined as generalizations of the "Generations" family of rules or rules with other symmetries, although the number of various possible state combinations may become exhaustively large. For more details, read the file **Multistate_cyclical_CA.md**.
+Multistate cyclical rules may be defined as generalizations of the "Generations" family of rules or rules with other symmetries, although the number of various possible state combinations may become exhaustively large. For more details, read the file **Multistate_cyclical_CA.md**. For the Positrinic Rule Family, which extends the Fireworld rule in a sumilar way, read **Positronic.md**.
