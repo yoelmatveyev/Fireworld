@@ -1,6 +1,7 @@
-;; A generator of Golly rule tables for cyclical rules with 2 to 8 states
+;;; A generator of Golly rule tables for cyclical rules with 2 to 8 fully symmetrical states
 
 ;; Copyright by Yoel Matveyev, 2020
+;; The GNU General Public License v3.0
 
 (defun substr (s &optional (n 1))
   (subseq s 0 (- (length s) n)))
