@@ -63,5 +63,5 @@ The "n" abbreviation,only allowed in survival situations, denotes rules in which
 
 The "z" abbreviation is used before an "n" abbreviation to exclude certain state combinations from survival rules. It may be combined with the "r" notation. For example, T2a-2n21zr3n denotes an exension of Conway's Game of Life, in which a cell survive, if surrounded by 2 or 3 cells of any live state, unless these three states are cca, aab or bbc, while T2a-2n12zr3n similarly excludes caa, abb and bcc. When both combinations are used, any combination of 2 cells of one state and 1 cell of another state is excluded, which means that T2n-2n12zr21zr3n is a redundant notation equivalent to T2n-2n111ar. Such redundant notations should be avoided.
 
-For practival usage of the **rule table generator**, read **Ruletable_genegator.md**
+For usage of the **rule table generator**, read **Ruletable_genegator.md**
  
