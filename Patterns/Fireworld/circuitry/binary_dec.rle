@@ -1,5 +1,5 @@
 # Yoel Matveyev, 2002
-# 10-digit binary decrement
+# 10-bit binary decrement
 x = 359, y = 53, rule = Fireworld
 17.A19.A19.A19.A19.A19.A19.A19.A19.A19.A2$77.2A18.2B78.2A18.2B$57.2A
 18.2B78.2A18.2B$37.2A18.2B78.2A18.2B$17.2A18.2B78.2A18.2B$17.2B78.2A
