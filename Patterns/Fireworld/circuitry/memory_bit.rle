@@ -1,4 +1,5 @@
-#CXRLE Pos=-77,-57
+# Yoel Matveyev, 2020
+# 1-bit memory element (demo version)
 x = 308, y = 61, rule = Fireworld
 35.A.A.A.A.A.A3$37.A.A70.A2$35.A5.A66.A.A2$35.A5.A30.A33.A3.A2$35.A5.
 A32.B35.A$72.AB$35.A5.A31.BA35.A$72.B$35.A5.A31.2B35.A$73.2A$37.A.A3.
