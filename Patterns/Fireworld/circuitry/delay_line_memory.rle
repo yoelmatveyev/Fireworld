@@ -1,4 +1,5 @@
-#CXRLE Pos=-412,-38
+# Yoel Matveyev, 2020
+# Memory from a 32-bit serial ROM is copied to 2 32-bit serial RAM elements
 x = 921, y = 80, rule = Fireworld
 524.A$699.A2$517.A2.A.B.2A2.A.B$520.2B.B4.2B162.A2.A.B.2A2.A.B$519.B.
 A.BA2.B.A2.A162.2B.B4.2B$694.B.A.BA2.B.A2.A3$524.2B$524.2A173.2B$699.
