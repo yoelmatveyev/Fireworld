@@ -1,4 +1,5 @@
-#CXRLE Pos=43,-10
+# Yoel Matveyev, 2002
+# A delay line useful for reflecting signals in a parallel tranmission bus
 x = 226, y = 119, rule = Fireworld
 196.A19.A6$196.2A18.2A$196.2B18.2B19$196.2A18.2A$196.2B18.2B9$196.2A$
 196.2B9$216.2A$216.2B9$196.2A$196.2B4$97.A24.A24.A24.A2$97.2A23.2A23.
