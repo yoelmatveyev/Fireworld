@@ -1,4 +1,5 @@
-#CXRLE Pos=0,7
+# Yoel Matveyev, 2002
+# Synching a desynchronized parallel bus
 x = 139, y = 452, rule = Fireworld
 13.A15.A14.A16.A15.A15.A15.A15.A68$52.A32.A2$52.2A30.2A$51.4A14.A13.
 4A$52.2B2.BA3.A2.A8.A2.A3.AB2.2B$48.A3.2B2.BA22.AB2.2B3.A$51.4A12.A2.
