@@ -1,3 +1,5 @@
+# Yoel Matveyev, 2002
+# 10-bit binary decrement by a slowed p32 gun equipped with another 3-bit counter
 x = 335, y = 99, rule = Fireworld
 8.A26.A26.A26.A26.A26.A26.A26.A2$7.2A25.2A25.2A25.2A25.2A25.2A25.2A
 25.2A$7.2B25.2B25.2B25.2B25.2B25.2B25.2B25.2B3$7.2A25.2A25.2A25.2A25.
