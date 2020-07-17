@@ -1,0 +1,7 @@
+# Yoel Matveyev, 2020
+# Sparks create an illusion of superluminal movement
+x = 30, y = 40, rule = Fireworld
+4.AB$4.AB$AB$AB.2A$2.A2B$3.2A2$6.2B$6.2A2$9.2B$9.2A2$12.2B$12.2A7.AB$
+21.AB3.A2.A$15.2B8.2A$15.2A8.A$22.A$17.4A$17.4A$22.A$15.2A8.A$15.2B8.
+2A$21.AB3.A2.A$12.2A7.AB$12.2B2$9.2A$9.2B2$6.2A$6.2B2$3.2A$2.A2B$AB.
+2A$AB$4.AB$4.AB!
