@@ -1,4 +1,5 @@
-#CXRLE Pos=0,379
+# Yoel Matveyev, 2002
+# 10-bit binary decrement with a parity checker
 x = 335, y = 171, rule = Fireworld
 190.A4$190.2A$190.2B7$190.2A$190.2B7$190.2A$190.2B7$190.2A$190.2B7$
 190.2A$190.2B7$190.2A$190.2B7$190.2A$190.2B7$190.2A$190.2B7$190.2A$
