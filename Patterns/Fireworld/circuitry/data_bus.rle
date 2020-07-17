@@ -1,4 +1,5 @@
-#CXRLE Pos=53,-490
+# Yoel Matveyev, 2020
+# 8-bit serial p20 data bus with signals reflected
 x = 541, y = 675, rule = Fireworld
 388.A19.A19.A19.A19.A19.A19.A19.A17$528.2A$528.2B19$388.2A18.2A18.2A
 18.2A58.2A18.2A$388.2B18.2B18.2B18.2B58.2B18.2B19$448.2A38.2A38.2A$
