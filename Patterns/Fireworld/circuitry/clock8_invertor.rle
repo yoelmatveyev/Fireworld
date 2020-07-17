@@ -1,4 +1,5 @@
-#CXRLE Pos=73,33
+# Yoel Matveyev, 2002
+# One of the first successful atempts to build a logical inverter
 x = 153, y = 45, rule = Fireworld
 11.A$91.A2$10.B2AB$7.A.2B2.2B.A73.B2AB$9.2B2.2B72.A.2B2.2B.A$10.B2AB
 75.2B2.2B$50.A39.B2AB$41.A$11.2B36.2B$11.2A28.2B5.4B39.2B$44.AB2.A2.A
