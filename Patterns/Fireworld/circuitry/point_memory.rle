@@ -1,4 +1,5 @@
-#CXRLE Pos=-43,-27
+# Yoel Matveyev, 2002
+# One of the first attemps to use a sliding dot as memory
 x = 84, y = 45, rule = Fireworld
 44.A11$9.A$74.A2$3.A2.BA4.A2.B.A$3.B2ABA3.AB2AB50.A2.A4.2A2.A$.A.B2.A
 2.A.AB2.A57.B$43.2A25.A2.BA4.A2.A$43.2B2$4.A9.BA18.BA$7.A6.BA18.BA25.
