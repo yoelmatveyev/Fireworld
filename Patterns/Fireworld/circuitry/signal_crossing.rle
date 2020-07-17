@@ -1,4 +1,5 @@
-#CXRLE Pos=51,-23
+# Yoel Matveyev, 2020
+# Crossing signals from 2 p10 buses are crossing. May also be used for visualization of a bit
 x = 120, y = 120, rule = Fireworld
 23.A9.A9.A9.A9.A9.A9.A9.A3$18.BA2.A5.BA2.A5.BA2.A5.BA2.A5.BA2.A5.BA2.
 A5.BA2.A5.BA2.A5.BA.A$16.4A6.4A6.4A6.4A6.4A6.4A6.4A6.4A6.4A$14.A.AB8.
