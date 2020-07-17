@@ -1,4 +1,5 @@
-#CXRLE Pos=23,-260
+# Yoel Matveyev, 2009
+# A 2-bit p10 serial bus processed by logic gates
 x = 276, y = 369, rule = Fireworld
 153.A6$163.A.A.A3.A.A.A2$163.A3.A3.A3.A2$163.A3.A3.A.A2$163.A3.A3.A.A
 2$163.A3.A3.A3.A2$153.2A8.A.A.A3.A3.A$153.2B15$246.A2$245.2A$220.A19.
