@@ -1,4 +1,5 @@
-#CXRLE Pos=64,-80
+# Yoel Matveyev, 2020
+# Pattern with a on/off switch useful for visualizing a bit of memory
 x = 179, y = 323, rule = Fireworld
 22.A4.A3$22.A4.A59$12.A2$34.A$6.A2.B.A3.A2.B.A$6.B2AB4.AB2AB15.2BA$4.
 A.B2.A4.AB2.A16.A$35.A$34.A2B2$7.A2.AB8.AB8.AB4.A$10.AB8.AB8.AB7.A2$
