@@ -1,4 +1,5 @@
-#CXRLE Pos=0,-110
+# Yoel Matveyev, 2002
+# 8-bit ROM with serial p8 transmission
 x = 170, y = 180, rule = Fireworld
 155.A2$154.2B15$154.2A$154.2B15$154.2A$154.2B15$154.2A$154.2B15$154.
 2A$154.2B15$154.2A$154.2B15$154.2A$154.2B12$21.A4.A10.A4.A10.A4.A10.A
