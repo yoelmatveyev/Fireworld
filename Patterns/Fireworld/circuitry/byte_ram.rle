@@ -1,4 +1,5 @@
-#CXRLE Pos=-77,-433
+# Yoel Matveyev, 2020
+# 8-bit memory with p10 parallel transmission
 x = 588, y = 436, rule = Fireworld
 98.A2$98.2BA$99.A17.A.A.A6.A.A.A.A6.A.A.A4.A.A.A.A3.A.A.A.A.A$99.A$
 95.A2.A2B16.A5.A4.A10.A10.A13.A$99.2A$117.A5.A4.A10.A10.A13.A$99.A$
