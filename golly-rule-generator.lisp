@@ -270,7 +270,7 @@
 
 (defun save-rule-table (string &key path comment rulename)
   (with-open-file
-      (stream (concatenate 'string (if path path "~/.golly/Rules/") rulename ".rule")
+      (stream (concatenate 'string (if path path "~/.golly/Rules/") (if rulename rulename string) ".rule")
 	      :direction :output :if-exists :supersede)
     (print-rule-table string :comment comment :rulename rulename :stream stream))
   t)
