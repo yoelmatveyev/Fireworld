@@ -42,3 +42,8 @@ Thing become even more complicated, when it comes to survival rules. A surviving
 Writing such rule tables by hand is a laborous task prone to errors. Therefore I developed a notation for such rules and wrote a Lisp program that produced the corresponding rule files. For the time being, only "totalistic", i.e. permutable rules, in which the position of the neighbors doesn't matter, are taken into consideration.
 
 Multistate cyclical rules may be defined as generalizations of the "Generations" family of rules or rules with other symmetries, although the number of various possible state combinations may become exhaustively large. For more details, read the file **Multistate_cyclical_CA.md**. For the Positrinic Rule Family, which extends the Fireworld rule in a sumilar way, read **Positronic.md**.
+
+# Gluonic
+
+Some 3-state symmetrical rules (4-state, if the empty state is counted) exhibit the complexity of the Fireworld and inherit some patterns of the regular Game of Life and Seeds without exploding. One rule that seems the most promissing, discovered in July 2020, I named Gluonic, **T2b102b-0a011a3n** in my notation.
+
