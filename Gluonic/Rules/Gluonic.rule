@@ -31,12 +31,6 @@ var a={1,2,3}
 var b=a
 var b=a
 var c=a
-var d=a
-var e=a
-var f=a
-var g=a
-var h=a
-var i=a
 
 0,3,3,0,0,0,0,0,0,1
 0,1,1,0,0,0,0,0,0,2
