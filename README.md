@@ -24,4 +24,6 @@ This rule may be abbreviated in Golly simply as **03ajkr/2ak/3**.
 
 For **other rules** and the **generator of rule tables** read the files **Other_rules.md**, **Multistate_cyclical_CA.md** and **Ruletable_generator.md**.
 
-Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**. I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to this pattern collection.
+Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**.
+
+I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to the Gluonic pattern collection and to my research of this rule.
