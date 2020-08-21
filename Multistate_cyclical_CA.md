@@ -1,11 +1,11 @@
-neighbours# Introduction
+# Introduction
 
 Classical cellular automata such as Conway's Game of Life can be generalized by creating multistate rules with 2 or more "parallel universes", which act by themselves as the original rule. When these "parallel universes" collide, additional rules create new, hybrid forms of behavior, which may look entirely different that the original rule. 
 Additionally, there is an entirely new, unexplored field of multistate rules, which don't resemble any classical binary rules.
 
 I started exploring this field in June 2020.
 
-For the sake of symmetry and consistency, state transformations must be **cyclical**.
+For the sake of symmetry and consistency, state transformations must be **cyclical**, meaning that transition of all living cells to the next state in the cycle does not ever change the behavior of any pattern. For example, if the automation has three states {r,g,b}, it must behave exactly the same after the transition r->g;g->b;b->a.
 
 For example, if 2 cells of state A and 1 cell of state B give birth to a cell of state C in a 3-state automation (not counting the "ground" zero state), 
 then 2 cells of state B and 1 cell of state C must give birth to a cell of state A, and 2 cells of state C and 1 cell of state A must give birth to a cell of state B.
