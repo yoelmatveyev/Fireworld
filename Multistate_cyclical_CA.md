@@ -28,9 +28,9 @@ followed by a small letter, from a to h, representing the state of the cell to b
 
 For example, 3S21b or T21b means that aab->b; bbc->c;cca->a, while 3S221a means that aabbc->a; bbcca->b;ccaab->c.
 
-Inconsistent rules with equal numbers of all states are illegal and ignored by the generator.
+Inconsistent birth rules with equal numbers of all states are illegal and ignored by the generator.
 
-For example, from T222a would follow that aabbcc->a and bbccaa->b, which is self-contradictory.
+For example, from T222a would follow that aabbcc->a and bbccaa->b, which is contradictory.
 
 Survival rules are notated the same way, except that the state A is always used as the original state of the surviving cell.
 
