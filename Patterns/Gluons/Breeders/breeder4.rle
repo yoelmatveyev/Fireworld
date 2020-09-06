@@ -1,0 +1,5 @@
+# By Yoel Matveyev, 2020
+
+x = 19, y = 12, rule = Gluons
+.2A10.B$3.A11.B$A14.B$2.2A4.B4.B$2.C7.A$2.2A3.B$A11.B$3.A12.C$.2A10.B
+4.C$7.B5.B4.C$7.A2.A2.B.BC$11.B!
