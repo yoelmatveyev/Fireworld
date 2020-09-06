@@ -1,0 +1,8 @@
+# By Yoel Matveyev, 2020
+
+# An oscillator with a very high period of 50331642
+
+x = 52, y = 8, rule = Morse
+2B48.2B$.B48.B$.B2.A9.A3.A.A.A3.A9.A.A5.A5.B$.B2.B9.B3.B.B.B3.B9.B.B
+5.B5.B$.B2.B9.B3.B.B.B3.B9.B.B5.B5.B$.B2.A9.A3.A.A.A3.A9.A.A5.A5.B$.B
+48.B$2B48.2B!
