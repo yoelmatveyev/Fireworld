@@ -1,3 +1,4 @@
-#CXRLE Pos=-13,-8
+# By Yoel Matveyev, 2020
+
 x = 9, y = 10, rule = Morse
 6.BCB2$6.2CB$4.B.B$4.C.B$4.B2$B.B$C.C$B.B!
