@@ -43,7 +43,35 @@ Writing such rule tables by hand is a laborous task prone to errors. Therefore I
 
 Multistate cyclical rules may be defined as generalizations of the "Generations" family of rules or rules with other symmetries, although the number of various possible state combinations may become exhaustively large. For more details, read the file **Multistate_cyclical_CA.md**. For the Positrinic Rule Family, which extends the Fireworld rule in a sumilar way, read **Positronic.md**.
 
+Some 3-state symmetrical rules (4-state, if the empty state is counted) exhibit the complexity of the Fireworld and inherit some patterns of the regular Game of Life and Seeds without exploding into chaos. Two rules seems the most promissing, discovered in July 2020, which I named Gluons and Gluonic,**T2b-0a011a3n** and **T2b102b-0a011a3n** in my notation. Another rule, Morse, **T11c12a21b-2a3a**, is also quite interesting.
+
+
+# Gluons
+
+***1. A cell is born only if surrounded by 2 cells of the same color. The newborn cell takes the next color in the cycle (i.e. two red cells give birth to a green cell, green to blue, blue to red).***
+
+***2. A cell survives, if it stands alone, surrounded by 2 cell of 2 different colors or by 3 cells of any color.***
+
+This rule has proven to have oscillators of all periods and guns for all periods above p>=14, as well as 6, 8 and 12.
+
 # Gluonic
 
-Some 3-state symmetrical rules (4-state, if the empty state is counted) exhibit the complexity of the Fireworld and inherit some patterns of the regular Game of Life and Seeds without exploding. One rule that seems the most promissing, discovered in July 2020, I named Gluonic, **T2b102b-0a011a3n** in my notation.
+***1. A cell is born, if surrounded by 2 cells of the same color. The newborn cell takes the next color in the cycle: two red cells give birth to a green cell, 2 green to blue, 2 blue to red.***
 
+***2. A cell of a certain color is born, when surrounded by one cell of the previous color in the cycle and two cells of the next color: one red cell and two blue cells give birth to a green cell, 1 green cell and 2 red cells give birth to a blue cell, 1 blue cells and 2 green cells give birth to a red cell.***
+
+***3. A cell survives, if it stands alone, surrounded by 2 cells of 2 different colors or surrounded by 3 cells of any color.***
+
+Note that since this rule is cyclical, it does not imply that two red cells and 1 blue cell give birth to a green cell etc. That would be another cyclical rule (too exploding, actually). Very similar to Gluons, but this extra rule adds some unique dynamics, sparky spaceships and other interesting things.
+
+# Morse
+
+***1. 2 cells of 2 different colors give births to a cell of the third color.***
+
+***2. 1 cell of one color and 2 cells of another color give birth to a cell of the first (minority) color.***
+
+***3. A cell survives, if surrounded by 2 or 3 cells of the same color.***
+
+The survival rule ensures that all Conway's GOL still lifes work in this rule too (in 3 possible color phases). Many more still lifes are available; some appear naturally. This rule is abundant with a rich variety of natural orthogonal ships moving at the speed of light, rakes, puffers, 2 different c/1 replicators and breeders. Patterns tend to explode, but not chaotically; evolving networks of interacting infinitely growing replicators resemble Morse code.
+
+THere are oscillators of many small even periods, many spaceships, puffers, rakes, breeders, some guns. Quite a few simple replicator-based oscillators have exorbitant periods well over 10e8.
