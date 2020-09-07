@@ -12,7 +12,7 @@ Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone 1x1
 
 Fireworld operates in the Moore neighborhood. Cells may have 3 states: empty, live and dead.
 
-***1. An empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell is adjacent to it in diagonal.***
+***1. An empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other live cell is adjacent to it in diagonal.***
 
 ***2. A live cell survives either if there are no other live cells in its neighborhood or there are exactly three live cells adjacent to it in a particular way: two adjacent orthogonally (horizontally or vertically), while the third one is adjacent in diagonal.***
 
