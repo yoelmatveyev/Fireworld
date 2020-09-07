@@ -12,18 +12,18 @@ Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone 1x1
 
 Fireworld operates in the Moore neighborhood. Cells may have 3 states: empty, live and dead.
 
-A empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell is adjacent to it in diagonal.
+***1. An empty cell becomes alive only if it is surrounded by one live cell horizontally or vertically adjacent to it, while one other cell is adjacent to it in diagonal.***
 
-A live cell survives either if there are no other live cells in its neighborhood or there are exactly three live cells adjacent to it in a particular way: two adjacent orthogonally (horizontally or vertically), while the third one is adjacent in diagonal.
+***2. A live cell survives either if there are no other live cells in its neighborhood or there are exactly three live cells adjacent to it in a particular way: two adjacent orthogonally (horizontally or vertically), while the third one is adjacent in diagonal.***
 
-Dead cells count as empty and don't interfere with the birth or survival, if they are present in the neighborhood. They do prevent a cell to get born in their place though, as usual in the "Generations" rules.
+***3. Dead cells count as empty and don't interfere with birth or survival, if they are present in the neighborhood. They do prevent a cell to get born in their place though, as usual in the "Generations" rules.***
 
-A dead cell becomes empty in the next generation.
+***4. A dead cell becomes empty in the next generation.***
 
-This rule may be abbreviated in Golly simply as **03ajkr/2ak/3**.
+This rule may be nowadays abbreviated in Golly simply as **03ajkr/2ak/3**.
 
 For **other rules**, especially the novel **cyclical multistate rules**, and for the **generator of rule tables** read the files **Other_rules.md**, **Multistate_cyclical_CA.md** and **Ruletable_generator.md**.
 
-Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**.
+Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**, as well as another somewhat similar rule **Morse**.
 
 I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to the Gluonic pattern collection and to my research of this rule.
