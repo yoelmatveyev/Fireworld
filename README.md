@@ -26,4 +26,4 @@ For **other rules**, especially the novel **cyclical multistate rules**, and for
 
 Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**, as well as another somewhat similar rule **Morse**.
 
-I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to the Gluonic pattern collection and to my research of this rule.
+I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to pattern collections and to my research of these rules.
