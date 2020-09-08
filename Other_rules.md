@@ -26,7 +26,8 @@ Read more in **Positronic.md**.
 
 # Cyclical multistate rules
 
-## Invented by Yoel Matveyev in July 2020
+## Copyright by Yoel Matveyev, invented in July 2020
+## The GNU General Public License v3.0
 
 Classical cellular automata such as Conway's Game of Life can be generalized by creating multistate rule with 2 or more "parallel universes", which act by themselves as the original rule. When these "parallel universes" collide, additional rules create new, hybrid forms of behavior, which may look entirely differently that the original rule. 
 
@@ -49,7 +50,8 @@ Some 3-state symmetrical rules (4-state, if the empty state is counted) exhibit 
 
 # Gluons
 
-## Invented by Yoel Matveyev in July 2020
+## Copyright by Yoel Matveyev, invented in July 2020
+## The GNU General Public License v3.0
 
 ***1. A cell is born only if surrounded by 2 cells of the same color. The newborn cell takes the next color in the cycle (i.e. two red cells give birth to a green cell, green to blue, blue to red).***
 
@@ -59,7 +61,8 @@ This rule has proven to have oscillators of all periods and guns for all periods
 
 # Gluonic
 
-## Invented by Yoel Matveyev in July 2020
+## Copyright by Yoel Matveyev, invented in July 2020
+## The GNU General Public License v3.0
 
 ***1. A cell is born, if surrounded by 2 cells of the same color. The newborn cell takes the next color in the cycle: two red cells give birth to a green cell, 2 green to blue, 2 blue to red.***
 
@@ -71,7 +74,8 @@ Note that since this rule is cyclical, it does not imply that two red cells and 
 
 # Morse
 
-## Invented by Yoel Matveyev in September 2020
+## Copyright by Yoel Matveyev, invented in September 2020
+## The GNU General Public License v3.0
 
 ***1. 2 cells of 2 different colors give births to a cell of the third color.***
 
