@@ -8,7 +8,7 @@ The rules of survival and birth are usual, but strictly symmetrical.
 A "negative" cell survives, if and only if it has 2 or 3 "negative" live neighbours.
 A "negative" cell is born, if and only if it has 3 "negative" live neighbours.  
 
-**Importantly**, the number of neighbours is counted as **the total sum of their numerical values**, which may be 1 or -1. 
+Importantly, the number of neighbours is counted as the total sum of their numerical values, which may be 1 or -1. 
 Thus, a "positive" cell may be born, if surrounded by 5 "positive" and 2 "negative" neighbours.
 A "negative" cell survives, if surrounded by 5 "negative" and 3 "positive" cells etc.
 
@@ -82,6 +82,12 @@ Note that since this rule is cyclical, it does not imply that two red cells and 
 The survival rule ensures that all Conway's GOL still lifes work in this rule too (in 3 possible color phases). Many more still lifes are available; some appear naturally. This rule is abundant with a rich variety of natural orthogonal ships moving at the speed of light, rakes, puffers, 2 different c/1 replicators and breeders. Patterns tend to explode, but not chaotically; evolving networks of interacting infinitely growing replicators resemble Morse code.
 
 THere are oscillators of many small even periods, many spaceships, puffers, rakes, breeders, some guns. Quite a few simple replicator-based oscillators have exorbitant periods well over 10e8.
+
+# Conway's Game of Life cyclical extensions
+
+Multistate cyclical rules with a given number of states can emulate any rule with a smaller number of states, including all totallistic Life-like rules. Thus, Conway's Game of Life can be augmented by additional rules, only applied when 2 or more different states interact. As long as he entire pattern is made of the same color, the rule behaves exactly like the classic Life, but changes its behavior radically, when different states or color collide, producing map-like fractals, stable structures, chaos etc. 
+
+Examples of such rules in this repository include **SeaLife**, **Triple_Swamps** and **Triple_Behavior_Life**.
 
 # Lace
 
