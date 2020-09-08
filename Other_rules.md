@@ -1,4 +1,4 @@
-As this project grew, I decided to add my experiments with other previously unknown rules.
+As this project grew, I decided to add my experiments with other previously unknown rules and an entirely new rule family.
 
 # Twolives
 
@@ -26,6 +26,8 @@ Read more in **Positronic.md**.
 
 # Cyclical multistate rules
 
+## Invented by Yoel Matveyev in July 2020
+
 Classical cellular automata such as Conway's Game of Life can be generalized by creating multistate rule with 2 or more "parallel universes", which act by themselves as the original rule. When these "parallel universes" collide, additional rules create new, hybrid forms of behavior, which may look entirely differently that the original rule. 
 
 Additionally, there is an enterely new, unexplored field of multistate rules, which don't resemble any classical binary rules. I started exploring this field in June 2020. 
@@ -45,8 +47,9 @@ Multistate cyclical rules may be defined as generalizations of the "Generations"
 
 Some 3-state symmetrical rules (4-state, if the empty state is counted) exhibit the complexity of the Fireworld and inherit some patterns of the regular Game of Life and Seeds without exploding into chaos. Two rules seems the most promissing, discovered in July 2020, which I named Gluons and Gluonic,**T2b-0a011a3n** and **T2b102b-0a011a3n** in my notation. Another rule, Morse, **T11c12a21b-2a3a**, is also quite interesting.
 
-
 # Gluons
+
+## Invented by Yoel Matveyev in July 2020
 
 ***1. A cell is born only if surrounded by 2 cells of the same color. The newborn cell takes the next color in the cycle (i.e. two red cells give birth to a green cell, green to blue, blue to red).***
 
@@ -55,6 +58,8 @@ Some 3-state symmetrical rules (4-state, if the empty state is counted) exhibit 
 This rule has proven to have oscillators of all periods and guns for all periods above p>=14, as well as 6, 8 and 12.
 
 # Gluonic
+
+## Invented by Yoel Matveyev in July 2020
 
 ***1. A cell is born, if surrounded by 2 cells of the same color. The newborn cell takes the next color in the cycle: two red cells give birth to a green cell, 2 green to blue, 2 blue to red.***
 
@@ -66,6 +71,8 @@ Note that since this rule is cyclical, it does not imply that two red cells and 
 
 # Morse
 
+## Invented by Yoel Matveyev in September 2020
+
 ***1. 2 cells of 2 different colors give births to a cell of the third color.***
 
 ***2. 1 cell of one color and 2 cells of another color give birth to a cell of the first (minority) color.***
@@ -75,3 +82,9 @@ Note that since this rule is cyclical, it does not imply that two red cells and 
 The survival rule ensures that all Conway's GOL still lifes work in this rule too (in 3 possible color phases). Many more still lifes are available; some appear naturally. This rule is abundant with a rich variety of natural orthogonal ships moving at the speed of light, rakes, puffers, 2 different c/1 replicators and breeders. Patterns tend to explode, but not chaotically; evolving networks of interacting infinitely growing replicators resemble Morse code.
 
 THere are oscillators of many small even periods, many spaceships, puffers, rakes, breeders, some guns. Quite a few simple replicator-based oscillators have exorbitant periods well over 10e8.
+
+# Lace
+
+## Invented by Yoel Matveyev in September 2020
+
+Another simple way to have c/1 spaceships without complete chaos, besides Generations rules like Fireworld or above-explained the cyclical rules is to "cut" the rule's totalitistic behavior. One such rule is **B2ae/S1e3y5**, which I call **Lace**, because it tends to explode into infinite, but not chaotic fractal structures that resemble sophisticated lace-like ornaments. The same happens to many other rules that contain B2ea, including plain B2ea/S, but this rule has extremely simple and easily controllable guns (the most basic one made of just 2 cells), which appears naturally as parts of rakes and puffers.
