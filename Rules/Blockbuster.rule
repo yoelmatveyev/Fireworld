@@ -1,0 +1,46 @@
+@RULE Blockbuster
+
+# T2b-3n
+
+# Copyright by Yoel Matveyev, 2020
+# The GNU General Public License v3.0 
+
+@COLORS
+
+0 0 0 0
+1 255 0 0
+2 0 255 0
+3 0 0 255
+
+@TABLE
+
+n_states:4
+neighborhood:Moore
+symmetries:permute
+var A={0,1,2,3}
+var B=A
+var C=A
+var D=A
+var E=A
+var F=A
+var G=A
+var H=A
+var I=A
+
+var a={1,2,3}
+var b=a
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+var i=a
+
+0,3,3,0,0,0,0,0,0,1
+0,1,1,0,0,0,0,0,0,2
+0,2,2,0,0,0,0,0,0,3
+i,a,b,c,0,0,0,0,0,i
+
+I,A,B,C,D,E,F,G,H,0
