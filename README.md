@@ -4,9 +4,9 @@ I invented this rule in 2002 while playing with Mcell (Mirek's Cellebration), a 
 
 Originally I called this rule "Minimum", as it was deliberately meant to be "minimalistic" in its survival/birth mechanism. Soon I had discovered that this rule must be Turing-complete, as it exhibits in its own way the same complexity as Brian Silverman's Wireworld (hence the new name of my rule). Natural evolution of random patterns often resembles the operation of some complicated machinery or circuitry, occasionally producing fractal-like structures. An exlicit implementation of Rule 110 unit cells is still work in progress though; Eventually, I would like to build something more conventional, like the Wireworld programmable calculator.
 
-Although I did not have time to build a full computer model in Fireworld, patterns provided in this repository (logic gates, various types of ROM and RAM, binary counters, data buses etc.) may serve as a sufficient reason to believe that it must be possible.
+Although I did not have time to build a full computer model in Fireworld, patterns provided in this repository (logic gates, including 3-input gate for Rule 110, various types of ROM and RAM, binary counters, data buses etc.) may serve as a sufficient reason to believe that it must be possible.
 
-Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone 1x1 blocks and Life-like 2x2 blocks surrounded by supporting 1x1 blocks. Tiny orthogonal ships, guns, puffers, rakes, breeders are the common natural inhabitants of this universe. As these structures interact with each other in complex ways, the behavior of this rule combines Life-like and Wireworld-like features.
+Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone dots and Life-like 2x2 blocks surrounded by supporting 1x1 blocks. The only natural still lifes are dots. Tiny orthogonal ships, guns, puffers, rakes, breeders are the common natural inhabitants of this universe. As these structures interact with each other in complex ways, the behavior of this rule combines Life-like and Wireworld-like features.
 
 # Description
 
