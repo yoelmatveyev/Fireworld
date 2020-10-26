@@ -1,0 +1,59 @@
+@RULE Salamanders5
+
+# T11c21b31b5b-2n3a123ar
+
+# Copyright by Yoel Matveyev, 2020
+# The GNU General Public License v3.0 
+
+@COLORS
+
+0 0 0 0
+1 255 0 0
+2 0 255 0
+3 0 0 255
+
+@TABLE
+
+n_states:4
+neighborhood:Moore
+symmetries:permute
+var A={0,1,2,3}
+var B=A
+var C=A
+var D=A
+var E=A
+var F=A
+var G=A
+var H=A
+var I=A
+
+var a={1,2,3}
+var b=a
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+var i=a
+
+0,3,1,0,0,0,0,0,0,2
+0,1,2,0,0,0,0,0,0,3
+0,2,3,0,0,0,0,0,0,1
+0,3,3,1,0,0,0,0,0,1
+0,1,1,2,0,0,0,0,0,2
+0,2,2,3,0,0,0,0,0,3
+0,3,3,3,1,0,0,0,0,1
+0,1,1,1,2,0,0,0,0,2
+0,2,2,2,3,0,0,0,0,3
+0,3,3,3,3,3,0,0,0,1
+0,1,1,1,1,1,0,0,0,2
+0,2,2,2,2,2,0,0,0,3
+i,a,b,0,0,0,0,0,0,i
+i,i,i,i,0,0,0,0,0,i
+i,3,1,1,2,2,2,0,0,i
+i,1,2,2,3,3,3,0,0,i
+i,2,3,3,1,1,1,0,0,i
+
+I,A,B,C,D,E,F,G,H,0
