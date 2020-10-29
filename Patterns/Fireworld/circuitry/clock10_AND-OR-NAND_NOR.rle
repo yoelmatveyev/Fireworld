@@ -1,4 +1,5 @@
-#CXRLE Pos=-74,14
+# Yoel Matveyev, 2020
+# NAND and NOR gates can be easily synchronized with delay lines, as demonstrated here by synchronizing the AND and OR gate
 x = 588, y = 198, rule = Fireworld
 579.A$442.A43.A44.A3$441.2A136.2A$441.2B136.2B9$441.2A136.2A$441.2B
 136.2B9$441.2A136.2A$441.2B136.2B9$441.2A136.2A$441.2B103.A32.2B2$
