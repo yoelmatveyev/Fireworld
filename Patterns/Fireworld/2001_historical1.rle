@@ -1,4 +1,5 @@
-#CXRLE Pos=0,0
+# By Yoel Matveyev, 2001
+# One of the oldest patterns that convinced me that this rule has a great potential computational power 
 x = 120, y = 75, rule = Fireworld
 3.2A$3.2B2$A$7.2A$7.2B$9.BA$5.A2.2A.BA$5.A.AB2.BA$2.A3.BA.BA$5.B$6.2B
 $6.2A14$37.AB$37.AB$39.B.A2.A2.A2.A2.A2.A2.A2.A2.A2$37.2A$37.2B2$34.
