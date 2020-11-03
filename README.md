@@ -2,11 +2,11 @@
 
 I invented this rule in 2001 while playing with Mcell (Mirek's Cellebration), a great cellular automata playground made by Mirosław (Mirek) Wójtowicz. To my knowledge, for a long while it was the only program of its kind, where you could set your own rules in various flexible ways. Now, since old Mcell files and rules are convertible to Golly (sometimes by some modification or by a custom script though), I decided to start converting and publicizing my old patterns, as well as engineering new ones. On a side note, Mcell works perfectly on Linux/Unix under Wine.
 
-Originally I called this rule "Computer". then "Minimum", as it was deliberately meant to be "minimalistic" in its survival/birth mechanism. Soon I had discovered that this rule must be Turing-complete, as it exhibits in its own way the same complexity as Brian Silverman's Wireworld, hence the final name of the rule. Natural evolution of random patterns often resembles the operation of some complicated machinery or circuitry, occasionally producing fractal-like structures. An exlicit implementation of Rule 110 unit cells is still work in progress though; Eventually, I would like to build something more conventional, like the Wireworld programmable calculator.
+Originally I called this rule "Computer". then "Minimum", as it was deliberately meant to be "minimalistic" in its survival/birth mechanism. Soon I had discovered that this rule must be Turing-complete, as it exhibits in its own way the same complexity as Brian Silverman's Wireworld, hence the final name of the rule. Natural evolution of random patterns often resembles the operation of some complicated machinery or circuitry, occasionally producing fractal-like structures. An implementation of Rule 110 was made in Nov. 3, 2020. 
 
-Although I did not have time to build a full computer model in Fireworld, patterns provided in this repository (logic gates, including 3-input gate for Rule 110, various types of ROM and RAM, binary counters, data buses etc.) may serve as a sufficient reason to believe that it must be possible.
+Eventually, I would like to build something more conventional, like the Wireworld programmable calculator. Patterns provided in this repository (logic gates, including the Rule 110, various types of ROM and RAM, binary counters, data buses, adder, LED-like display cells etc.) demonstrate that it must be possible with enough effort.
 
-Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone dots and Life-like 2x2 blocks surrounded by supporting 1x1 blocks. The only natural still lifes are dots. Tiny orthogonal ships, guns, puffers, rakes, breeders are the common natural inhabitants of this universe. As these structures interact with each other in complex ways, the behavior of this rule combines Life-like and Wireworld-like features.
+Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone dots and Life-like 2x2 blocks surrounded by supporting 1x1 blocks. The only natural still lifes are the dots. Tiny orthogonal ships, guns, puffers, rakes, breeders are the common natural inhabitants of this universe. As these structures interact with each other in complex ways, the behavior of this rule combines Life-like and Wireworld-like features.
 
 # Description
 
@@ -24,6 +24,6 @@ This rule may be nowadays abbreviated in Golly simply as **03ajkr/2ak/3**.
 
 For **other rules**, especially the novel **cyclical multistate rules**, and for the **generator of rule tables** read the files **Other_rules.md**, **Multistate_cyclical_CA.md** and **Ruletable_generator.md**.
 
-Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**, as well as another somewhat similar rule **Morse**.
+Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**, as well a dozen of other rules. Gluons and Gluonic act in many ways similar to Fireworld and are, most likely, suitable for universal computation.
 
 I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to pattern collections and to my research of these rules.
