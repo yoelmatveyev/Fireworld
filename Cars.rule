@@ -1,0 +1,95 @@
+@RULE Cars
+
+# This rule is from Mirosław (Mirek) Wójtowicz's Mcell (Mirek's Cellebration)
+
+# Quoting Mirek's comment:
+
+# A very amusing rule producing... racing cars of several types!
+# It's a fun to watch them driving, smashing, bouncing. 
+# The rule features also interesting oscillators.
+
+# A rule by Rudy Rucker.
+
+# Converted to a Golly rule table by Yoel Matveyev in 2020
+
+@COLORS
+
+# Default colors from MCell
+
+0 0 0 0
+1 255 0 0
+2 0 0 255
+3 255 255 0
+4 0 128 0
+5 192 192 192
+6 255 128 0
+7 0 255 255
+8 0 255 0
+9 157 0 0
+10 0 166 0
+11 255 0 255
+12 128 128 128
+13 128 0 128
+14 255 255 255
+15 0 0 128
+
+@TABLE
+
+n_states:16
+neighborhood:Moore
+symmetries:permute
+var L1={1,3,5,7,9,11,13,15}
+var L2=L1
+var L3=L1
+var L4=L1
+var L5=L1
+var L6=L1
+var L7=L1
+var L8=L1
+
+# In rules with the F flag even states are counted as dead
+
+var D1={0,2,4,6,8,10,12,14}
+var D2=D1
+var D3=D1
+var D4=D1
+var D5=D1
+var D6=D1
+var D7=D1
+var D8=D1
+
+var A={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}
+var A1=A
+var A2=A
+var A3=A
+var A4=A
+var A5=A
+var A6=A
+var A7=A
+var A8=A
+
+0,L1,D2,D3,D4,D5,D6,D7,D8,2
+0,L1,L2,D3,D4,D5,D6,D7,D8,15
+0,L1,L2,L3,D4,D5,D6,D7,D8,6
+0,L1,L2,L3,L4,D5,D6,D7,D8,8
+0,L1,L2,L3,L4,L5,D6,D7,D8,2
+0,L1,L2,L3,L4,L5,L6,D7,D8,4
+0,L1,L2,L3,L4,L5,L6,L7,D8,6
+0,L1,L2,L3,L4,L5,L6,L7,L8,8
+
+15,L1,D2,D3,D4,D5,D6,D7,D8,2
+15,L1,L2,D3,D4,D5,D6,D7,D8,15
+15,L1,L2,L3,D4,D5,D6,D7,D8,15
+
+L1,A1,A2,A3,A4,A5,A6,A7,A8,0
+
+2,A1,A2,A3,A4,A5,A6,A7,A8,4
+4,D1,D2,D3,D4,D5,D6,D7,D8,0
+4,A1,A2,A3,A4,A5,A6,A7,A8,6
+6,A1,A2,A3,A4,A5,A6,A7,A8,8
+8,A1,A2,A3,A4,A5,A6,A7,A8,10
+10,A1,A2,A3,A4,A5,A6,A7,A8,12
+12,A1,A2,A3,A4,A5,A6,A7,A8,14
+14,A1,A2,A3,A4,A5,A6,A7,A8,0
+
+A,A1,A2,A3,A4,A5,A6,A7,A8,0
