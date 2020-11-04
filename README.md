@@ -4,7 +4,7 @@ I invented this rule in 2001 while playing with Mcell (Mirek's Cellebration), a 
 
 Originally I called this rule "Computer". then "Minimum", as it was deliberately meant to be "minimalistic" in its survival/birth mechanism. Soon I had discovered that this rule must be Turing-complete, as it exhibits in its own way the same complexity as Brian Silverman's Wireworld, hence the final name of the rule. Natural evolution of random patterns often resembles the operation of some complicated machinery or circuitry, occasionally producing fractal-like structures. An implementation of Rule 110 was made in Nov. 3, 2020. 
 
-Eventually, I would like to build something more conventional, like the Wireworld programmable calculator. Patterns provided in this repository (logic gates, including the Rule 110, various types of ROM and RAM, binary counters, data buses, adder, LED-like display cells etc.) demonstrate that it must be possible with enough effort.
+Eventually, I would like to build something more conventional, like the Wireworld programmable calculator. Patterns provided in this repository (chains of logic gates, including the circuitry of the Rule 110 emulator, various types of ROM and RAM, binary counters, data buses, adder, LED-like display cells etc.) demonstrate that it must be possible with enough effort.
 
 Unlike Wireworld, almost nothing in Fireworld is stable, besides stand-alone dots and Life-like 2x2 blocks surrounded by supporting 1x1 blocks. The only natural still lifes are the dots. Tiny orthogonal ships, guns, puffers, rakes, breeders are the common natural inhabitants of this universe. As these structures interact with each other in complex ways, the behavior of this rule combines Life-like and Wireworld-like features.
 
