@@ -1,0 +1,34 @@
+These patterns are from my old MCell collections, created in 2001-2002. 
+Two collections are for my own rules I've invented back then. These two
+rules were inspired by the well-known rule Starwars; They also belong to
+the Generations rule family and behave similar to Starwars:
+
+1. 3456/2678/5 
+
+I attempted to build some logic circuitry for this
+rule, but after a few experiments had abandoned it for the second one:
+
+2. 34568/2678/6
+
+This rule is less explosive and easier to manage than Starwars.
+However, after building some logic gates, flip-flops and various cool 
+patterns, I had soon abandoned it too for Fireworld.
+Now, after converting these old MCell patterns into .rle format, 
+I've renamed this rule Stargates.
+
+The Rules directory at the root of this Github repository contains Golly
+tables for the following rules from the original MCell:
+
+Cars
+Cheops
+Crawlers
+Ladders
+
+These rules belong to the "Rules table" family specific to MCell.
+
+Also included are archives of the original MCell backup and of the
+converted Golly patterns.
+
+Enjoy!
+
+Yoel Matveyev, 2001-2020
