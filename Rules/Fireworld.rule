@@ -34,13 +34,12 @@ var F=A
 var G=A
 var H=A
 
-0,1,1,a,b,c,d,e,f,1
-0,1,a,b,1,c,d,e,f,1
+0,1,1,c,d,e,f,g,h,1
+0,1,b,c,1,e,f,g,h,1
 1,a,b,c,d,e,f,g,h,1
-1,1,1,1,a,b,c,d,e,1
-1,1,a,1,1,b,c,d,e,1
-1,1,1,a,b,1,c,d,e,1
-1,1,a,1,b,c,1,d,e,1
-1,1,a,1,b,c,d,e,1,1
+1,1,1,1,d,e,f,g,h,1
+1,1,b,1,1,e,f,g,h,1
+1,1,b,1,d,e,1,g,h,1
+1,1,1,c,d,1,f,g,h,1
 1,A,B,C,D,E,F,G,H,2
 2,A,B,C,D,E,F,G,H,0
