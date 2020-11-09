@@ -1,0 +1,51 @@
+@RULE Wilfred-Stargates
+
+# This is rule is a blend of:
+# 1. Stargates (34568/2678/6), a variety of Starwars invented by Yoel Matveyev in September 2001
+# 2. Wilfred series of rules, invented by Brian Prentice in October 2020
+
+# By Yoel Matveyev, November 2020
+
+@TABLE
+
+n_states:7
+neighborhood:Moore
+symmetries:permute
+var a={0,1,2,3,4,5,6}
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+var r=a
+
+var i={0,2,3,4,5,6}
+var j=i
+var k=i
+var l=i
+var m=i
+var n=i
+
+var x={0,2,3,4,5}
+var y=x
+var z=x
+var t=x
+
+0,1,1,i,j,k,l,m,n,1
+0,1,1,1,1,1,1,m,n,1
+0,1,1,1,1,1,1,1,n,1
+0,1,1,1,1,1,1,1,1,1
+1,1,1,1,j,k,l,m,n,1
+1,1,1,1,1,k,l,m,n,1
+1,1,1,1,1,1,l,m,n,1
+1,1,1,1,1,1,1,m,n,1
+1,1,1,1,1,1,1,1,1,1
+0,1,6,6,6,x,y,z,t,1
+1,a,b,c,d,e,f,g,h,2
+2,a,b,c,d,e,f,g,h,3
+3,a,b,c,d,e,f,g,h,4
+4,a,b,c,d,e,f,g,h,5
+5,a,b,c,d,e,f,g,h,0
+6,a,b,c,d,e,f,g,h,6

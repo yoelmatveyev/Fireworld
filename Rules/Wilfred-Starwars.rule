@@ -1,0 +1,44 @@
+@RULE Wilfred-Starwars
+
+# This is rule is a blend of:
+# 1. Mirek Wojtowicz's Starwars (345/2/4)
+# 2. Wilfred series of rules, invented by Brian Prentice in October 2020
+
+# Blending and ruletable by Yoel Matveyev, November 2020
+
+@TABLE
+
+n_states:5
+neighborhood:Moore
+symmetries:permute
+var a={0,1,2,3,4}
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+var r=a
+
+var i={0,2,3,4}
+var j=i
+var k=i
+var l=i
+var m=i
+var n=i
+
+var x={0,2,3}
+var y=x
+var z=x
+var t=x
+
+0,1,1,i,j,k,l,m,n,1
+1,1,1,1,j,k,l,m,n,1
+1,1,1,1,1,k,l,m,n,1
+1,1,1,1,1,1,l,m,n,1
+0,1,4,4,4,x,y,z,t,1
+1,a,b,c,d,e,f,g,h,2
+2,a,b,c,d,e,f,g,h,3
+3,a,b,c,d,e,f,g,h,0
+4,a,b,c,d,e,f,g,h,4
