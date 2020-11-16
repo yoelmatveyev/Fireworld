@@ -105,8 +105,8 @@
     (setf rule (make-reflected-list rule)))
   (case radius
     (1 (format t "~%W~a~%" (encode-list-to-wolfram rule radius)))
-    (2 (format t "~%~a~{~a,~}~a%" b2 (mapcar #'calc-birth rule) e2))
-    (3 (format t "~%~a~{~a,~}~a%" b3 (mapcar #'calc-birth rule) e3))))
+    (2 (format t "~%~a~{~a,~}~a%~" b2 (mapcar #'calc-birth rule) e2))
+    (3 (format t "~%~a~{~a,~}~a%~" b3 (mapcar #'calc-birth rule) e3))))
 
 ;; Convert a list of totalistic birth counts to a weighted rule string
 
