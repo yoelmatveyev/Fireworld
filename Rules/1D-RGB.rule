@@ -1,9 +1,9 @@
 @RULE 1D-RGB
 
+# Template for 3-color one-dimentional cellular automata
+
 # Copyright by Yoel Matveyev, 2020
 # The GNU General Public License v3.0
-
-# Template for 3-color one-dimentional cellular automata
 
 @COLORS
 
