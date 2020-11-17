@@ -21,17 +21,6 @@
 	     (push x l2)))
     (reverse l2)))
 
-; Convert a totalistic rule to a weighted rulestring
-
-(defun permute-totalistic (birth-list radius)
-  (let ((l (binary-codes (1+ (ash radius 1))))
-	l2)
-    (loop for x in birth-list do
-	 (loop for y in l do
-	      (when (= (totalistic-count y) x)
-		(push y l2))))
-    (reverse l2)))
-
 ;; Decode an extended Wolfram code into a rule list
 
 (defun decode-wolfram-to-list (code radius)
@@ -48,6 +37,17 @@
   (sort l (lambda (x y)
 	    (< (parse-integer x :radix 2)
 	       (parse-integer y :radix 2)))))
+
+; Convert a totalistic rule to a weighted rulestring
+
+(defun permute-totalistic (birth-list radius)
+  (let ((l (binary-codes (1+ (ash radius 1))))
+	l2)
+    (loop for x in birth-list do
+	 (loop for y in l do
+	      (when (= (totalistic-count y) x)
+		(push y l2))))
+    (sort-binary-strings l2)))
 
 ;; Encode a rule list into an extended Wolfram code
 
@@ -68,6 +68,17 @@
        (unless (find (reverse x) l :test #'equal)
 	 (push (reverse x) l)))
   l)
+
+;; Check reflectiveness of a given rule
+
+(defun reflected-p (rule radius)
+  (let ((f t))
+  (when (numberp rule)
+    (setf rule (decode-wolfram-to-list rule radius)))
+  (loop for x in rule do
+       (unless (find (reverse x) rule :test #'equal)
+	 (setf f nil)))
+  f))
 
 (defparameter weights '(32 8 2 1 4 16 64))
 
@@ -105,8 +116,8 @@
     (setf rule (make-reflected-list rule)))
   (case radius
     (1 (format t "~%W~a~%" (encode-list-to-wolfram rule radius)))
-    (2 (format t "~%~a~{~a,~}~a%~" b2 (mapcar #'calc-birth rule) e2))
-    (3 (format t "~%~a~{~a,~}~a%~" b3 (mapcar #'calc-birth rule) e3))))
+    (2 (format t "~%~a~{~a,~}~a~%" b2 (mapcar #'calc-birth rule) e2))
+    (3 (format t "~%~a~{~a,~}~a~%" b3 (mapcar #'calc-birth rule) e3))))
 
 ;; Convert a list of totalistic birth counts to a weighted rule string
 
