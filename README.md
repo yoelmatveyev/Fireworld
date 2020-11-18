@@ -27,3 +27,5 @@ For **other rules**, especially the novel **cyclical multistate rules**, and for
 Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**, as well a dozen of other rules. Gluons and Gluonic act in many ways similar to Fireworld and are, most likely, suitable for universal computation.
 
 I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to pattern collections and to my research of these rules.
+
+Additional Lisp tools are provided for emulating 1D cellular automata with larger neighborhoods in Golly (starting from 4.0) and for 1D cyciical symmetrical multistate 1D CA. Many such rules exhibit behavior as complex or more complex than the famous Rule 110.
