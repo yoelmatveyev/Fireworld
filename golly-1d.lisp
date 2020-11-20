@@ -29,7 +29,7 @@
 ;; Remove all digit-wise symmetrical codes
 
 (defun dn-codes (s)
-  (remove-duplicates s :test (lambda (x y) (equal x (toggle-string y)))))
+  (remove-duplicates s :test (lambda (x y) (equal x (toggle-string y))) :from-end t))
 
 ;; Decode an extended Wolfram code into a rule list
 
@@ -73,14 +73,6 @@
 	 (when (find x list :test #'equal)
 	   (incf code)))
     code))
-
-;; Enforce Day&Night behavior in a list
-
-(defun make-dn-list (l)
-  (sort-binary-strings
-   (remove-duplicates
-    (let () (loop for x in l do (push (toggle-string x) l)) l)
-    :test #'equal)))
 
 ;; Enforce reflection in a rule list
 
