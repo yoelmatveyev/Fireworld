@@ -12,14 +12,24 @@
 
 ; Remove mirror reflections from binary strings of a given length 
 
-(defun reflected-binary-codes (n)
-  (let ((l1 (binary-codes n))
+(defun reflected-binary-codes (n &optional (l nil))
+  (let ((l1 (if l l (binary-codes n)))
 	l2)
     (loop for x in l1 do
 	 (if (or (not (find (reverse x) l2 :test #'equal))
 		 (equal x (reverse x)))
 	     (push x l2)))
     (reverse l2)))
+
+;; Toggle all digits in a string
+
+(defun toggle-string (s)
+  (substitute #\1 #\* (substitute #\0 #\1 (substitute #\* #\0 s))))
+
+;; Remove all digit-wise symmetrical codes
+
+(defun dn-codes (s)
+  (remove-duplicates s :test (lambda (x y) (equal x (toggle-string y)))))
 
 ;; Decode an extended Wolfram code into a rule list
 
@@ -38,8 +48,8 @@
 	    (< (parse-integer x :radix 2)
 	       (parse-integer y :radix 2)))))
 
- (defun totalistic-count (s)
-	(reduce #'+ (loop for x across s collect (digit-char-p x))))
+(defun totalistic-count (s)
+  (reduce #'+ (loop for x across s collect (digit-char-p x))))
 
 ; Convert a totalistic rule to a weighted rulestring
 
@@ -64,7 +74,15 @@
 	   (incf code)))
     code))
 
-;; Enforce reflection to a rule list
+;; Enforce Day&Night behavior in a list
+
+(defun make-dn-list (l)
+  (sort-binary-strings
+   (remove-duplicates
+    (let () (loop for x in l do (push (toggle-string x) l)) l)
+    :test #'equal)))
+
+;; Enforce reflection in a rule list
 
 (defun make-reflected-list (l)
   (loop for x in l do
