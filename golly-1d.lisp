@@ -96,6 +96,19 @@
 	 (setf f nil)))
   f))
 
+;; Make a Day&Night type of rule list
+
+(defun dn-list (n radius)
+  (let* ((l (dn-codes (reflected-binary-codes radius)))
+	 (ln (1- (length l)))
+	 l2)
+    (loop for x from 0 to ln do
+	 (if (zerop (mod n 2))
+	     (push (toggle-string (nth x l)) l2)
+	     (push (nth x l) l2))
+	 (setf n (ash n -1)))
+    (sort-binary-strings l2)))
+
 (defparameter weights '(32 8 2 1 4 16 64))
 
 ;; Calculate the birth weight based on a binary string
