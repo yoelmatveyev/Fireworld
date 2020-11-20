@@ -38,6 +38,9 @@
 	    (< (parse-integer x :radix 2)
 	       (parse-integer y :radix 2)))))
 
+ (defun totalistic-count (s)
+	(reduce #'+ (loop for x across s collect (digit-char-p x))))
+
 ; Convert a totalistic rule to a weighted rulestring
 
 (defun permute-totalistic (birth-list radius)
