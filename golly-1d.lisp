@@ -29,7 +29,10 @@
 ;; Remove all digit-wise symmetrical codes
 
 (defun dn-codes (s)
-  (remove-duplicates s :test (lambda (x y) (equal x (toggle-string y))) :from-end t))
+  (remove-duplicates s :test (lambda (x y)
+			       (or (equal x (toggle-string y))
+				   (equal x (reverse (toggle-string y)))))
+				   :from-end t))
 
 ;; Decode an extended Wolfram code into a rule list
 
