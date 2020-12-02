@@ -24,7 +24,7 @@ This rule may be nowadays abbreviated in Golly simply as **03ajkr/2ak/3**.
 
 For **other rules**, especially the novel **cyclical multistate rules**, and for the **generator of rule tables** read the files **Other_rules.md**, **Multistate_cyclical_CA.md** and **Ruletable_generator.md**.
 
-Currently, growing pattern repositories are being built for two very similar 3-color cyclical rules: Gluons and Gluonic, **T2b-0n011a3n** and **T2b102b-0a011a3n**, as well a dozen of other rules. Gluons and Gluonic act in many ways similar to Fireworld and are, most likely, suitable for universal computation.
+Currently, growing pattern repositories are being built for several somewhat similar Life-like, 2-color and 3-color cyclical rules: expecially GluonGuns, Gluons and Gluonic, **T2b-0n2n111a4**, **T2b-0n011a3n** and **T2b102b-0a011a3n**, as well a dozen of other rules. GluonGuns, Gluons and Gluonic act in many ways similar to Fireworld and are, most likely, suitable for universal computation.
 
 I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to pattern collections and to my research of these rules.
 
