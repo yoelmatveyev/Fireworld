@@ -29,3 +29,5 @@ Currently, growing pattern repositories are being built for several somewhat sim
 I would like to express gratitide to LifeWiki Forums users **FWKnightship** and **Layz Boi** for important contributions to pattern collections and to my research of these rules.
 
 Additional Lisp tools are provided for emulating 1D cellular automata with larger neighborhoods in Golly (starting from 4.0) and for 1D cyciical symmetrical multistate 1D CA. Many such rules exhibit behavior as complex or more complex than the famous Rule 110.
+
+Something else worth noticing in this repository are Rule 110 units for **Brian's Brain**. Based on the Fireworld design, they use toggle flip-flops instead of XOR gates. Each unit preserves its status and emits it by a spaceship stream.  
