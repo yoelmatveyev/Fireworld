@@ -1,0 +1,174 @@
+@RULE Fireworld++
+
+# The next generation of Fireworld (03ajkr/2ak/3), proven to be capable 
+# in itself of universal computation and suitable for constructing logic circuits.
+
+# This new generation of Fireworld is a hybrid rule combining 03ajkr7/2ak/3 and
+# a Wireworld-like wiring system. It is fully backward compatible with Fireworld.
+
+# Wires are implemented as the fourth, immutable state. The new rules are as follows:
+
+# 1. A cell is born, if surrounded by a living (state 1) cell and 2 or 3 wire cells.
+# 2. A cell is born, if surrounded by two horizontally adjacent living cells and 2 or 3 wire cells.
+# The second rule ensures that Fireworld's photons easily "ignite" electrons on wires.   
+
+# Copyright by Yoel Matveyev, 2020
+# The GNU General Public License v3.0
+
+@COLORS
+
+0 0 0 0
+1 255 0 0
+2 255 255 0
+3 0 0 255
+
+@TABLE
+
+n_states:4
+neighborhood:Moore
+symmetries:rotate4reflect
+var a={0,1,2,3}
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+
+var i={0,2}
+var j=i
+var k=i
+var l=i
+var m=i
+var n=i
+var o=i
+var p=i
+
+var x={0,2}
+var y=x
+var z=x
+var t=x
+var s=x
+var q=x
+var r=x
+var w=x
+
+# The original Fireworld augmented with B7
+
+0,1,1,i,j,k,l,m,n,1
+0,1,i,j,1,k,l,m,n,1
+1,i,j,k,l,m,n,o,p,1
+1,1,1,1,i,j,k,l,m,1
+1,1,i,1,1,j,k,l,m,1
+1,1,1,i,j,1,k,l,m,1
+1,1,i,1,j,k,1,l,m,1
+1,1,i,1,j,k,l,m,1,1
+1,1,1,1,1,1,1,1,i,1
+1,1,1,1,1,1,1,i,1,1
+
+# A computer-generated list of all possible living cells and wire cells positions
+
+0,x,y,1,t,s,3,r,3,1
+0,x,y,3,3,s,q,1,w,1
+0,x,y,3,t,1,q,3,w,1
+0,x,y,3,t,1,q,r,3,1
+0,x,y,3,t,3,q,1,w,1
+0,x,y,3,t,3,q,r,1,1
+0,x,y,3,t,s,3,r,1,1
+0,x,y,3,t,s,q,1,3,1
+0,x,y,3,t,s,q,3,1,1
+0,x,y,z,3,3,q,r,1,1
+0,x,y,z,3,s,1,r,3,1
+0,x,y,z,3,s,3,r,1,1
+0,x,y,z,3,s,q,1,3,1
+0,x,y,z,3,s,q,3,1,1
+0,x,y,z,t,1,3,r,3,1
+0,x,y,z,t,1,q,3,3,1
+0,x,y,z,t,3,1,3,w,1
+0,x,y,z,t,3,1,r,3,1
+0,x,y,z,t,3,3,1,w,1
+0,x,y,z,t,3,3,r,1,1
+0,x,y,z,t,3,q,1,3,1
+0,x,y,z,t,3,q,3,1,1
+0,x,y,z,t,s,3,1,3,1
+0,x,y,z,t,s,3,3,1,1
+0,3,y,3,t,3,q,1,w,1
+0,x,3,z,3,s,3,r,1,1
+0,x,y,1,3,s,3,r,3,1
+0,x,y,1,t,3,3,r,3,1
+0,x,y,1,t,3,q,3,3,1
+0,x,y,1,t,s,3,3,3,1
+0,x,y,3,1,3,q,r,3,1
+0,x,y,3,1,s,3,r,3,1
+0,x,y,3,3,1,q,r,3,1
+0,x,y,3,3,3,q,1,w,1
+0,x,y,3,3,3,q,r,1,1
+0,x,y,3,3,s,1,3,w,1
+0,x,y,3,3,s,1,r,3,1
+0,x,y,3,3,s,3,1,w,1
+0,x,y,3,3,s,3,r,1,1
+0,x,y,3,3,s,q,1,3,1
+0,x,y,3,3,s,q,3,1,1
+0,x,y,3,t,1,3,3,w,1
+0,x,y,3,t,1,3,r,3,1
+0,x,y,3,t,1,q,3,3,1
+0,x,y,3,t,3,1,3,w,1
+0,x,y,3,t,3,1,r,3,1
+0,x,y,3,t,3,3,1,w,1
+0,x,y,3,t,3,3,r,1,1
+0,x,y,3,t,3,q,1,3,1
+0,x,y,3,t,3,q,3,1,1
+0,x,y,3,t,s,3,1,3,1
+0,x,y,3,t,s,3,3,1,1
+0,x,y,z,3,3,3,r,1,1
+0,x,y,z,3,3,q,1,3,1
+0,x,y,z,3,3,q,3,1,1
+0,x,y,z,3,s,1,3,3,1
+0,x,y,z,3,s,3,1,3,1
+0,x,y,z,3,s,3,3,1,1
+0,x,y,z,t,1,3,3,3,1
+0,x,y,z,t,3,1,3,3,1
+0,x,y,z,t,3,3,1,3,1
+0,x,y,z,t,3,3,3,1,1
+0,1,1,3,3,s,q,r,w,1
+0,1,1,3,t,3,q,r,w,1
+0,1,1,3,t,s,3,r,w,1
+0,1,1,3,t,s,q,3,w,1
+0,1,1,3,t,s,q,r,3,1
+0,1,1,z,3,3,q,r,w,1
+0,1,1,z,3,s,3,r,w,1
+0,1,1,z,3,s,q,3,w,1
+0,1,1,z,3,s,q,r,3,1
+0,1,1,z,t,3,3,r,w,1
+0,1,1,z,t,3,q,3,w,1
+0,1,1,z,t,3,q,r,3,1
+0,1,1,z,t,s,3,3,w,1
+0,1,1,z,t,s,3,r,3,1
+0,1,1,z,t,s,q,3,3,1
+0,1,1,3,3,3,q,r,w,1
+0,1,1,3,3,s,3,r,w,1
+0,1,1,3,3,s,q,3,w,1
+0,1,1,3,3,s,q,r,3,1
+0,1,1,3,t,3,3,r,w,1
+0,1,1,3,t,3,q,3,w,1
+0,1,1,3,t,3,q,r,3,1
+0,1,1,3,t,s,3,3,w,1
+0,1,1,3,t,s,3,r,3,1
+0,1,1,3,t,s,q,3,3,1
+0,1,1,z,3,3,3,r,w,1
+0,1,1,z,3,3,q,3,w,1
+0,1,1,z,3,3,q,r,3,1
+0,1,1,z,3,s,3,3,w,1
+0,1,1,z,3,s,3,r,3,1
+0,1,1,z,3,s,q,3,3,1
+0,1,1,z,t,3,3,3,w,1
+0,1,1,z,t,3,3,r,3,1
+0,1,1,z,t,3,q,3,3,1
+0,1,1,z,t,s,3,3,3,1
+
+# Cleaning up, making the wires immutable
+
+1,a,b,c,d,e,f,g,h,2
+2,a,b,c,d,e,f,g,h,0
+3,a,b,c,d,e,f,g,h,3
