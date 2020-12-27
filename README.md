@@ -31,3 +31,16 @@ I would like to express gratitide to LifeWiki Forums users **FWKnightship** and 
 Additional Lisp tools are provided for emulating 1D cellular automata with larger neighborhoods in Golly (starting from 4.0) and for 1D cyciical symmetrical multistate 1D CA. Many such rules exhibit behavior as complex or more complex than the famous Rule 110.
 
 Something else worth noticing in this repository are Rule 110 units for **Brian's Brain**. Based on the Fireworld design, they use toggle flip-flops instead of XOR gates. Each unit preserves its status and emits it by a spaceship stream.  
+
+# Fireworld++
+
+This promising experimental rule is the next generation of Fireworld.
+
+It is a hybrid rule combining 03ajkr7/2ak/3 and a Wireworld-like wiring system.
+
+It is fully backward compatible with Fireworld, because the "electron" are running on the surface of the wires, which are implemented as the fourth, immutable state. The new rules are as follows:
+
+**A cell is born, if surrounded by a living (state 1) cell and 2 or 3 wire cells.**
+**A cell is born, if surrounded by two horizontally adjacent living cells and 2 or 3 wire cells.**
+
+The second rule ensures that Fireworld's photons easily "ignite" electrons on the wires.
