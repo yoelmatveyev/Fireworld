@@ -32,9 +32,9 @@ Additional Lisp tools are provided for emulating 1D cellular automata with large
 
 Something else worth noticing in this repository are Rule 110 units for **Brian's Brain**. Based on the Fireworld design, they use toggle flip-flops instead of XOR gates. Each unit preserves its status and emits it by a spaceship stream.  
 
-# Fireworld++
+# Fireworld2
 
-This promising experimental rule is the next generation of Fireworld.
+This promising experimental rule is the next generation of Fireworld, created in December 2020.
 
 It is a hybrid rule combining 03ajkr7/2ak/3 and a Wireworld-like wiring system.
 
