@@ -1,4 +1,23 @@
 [M2] (golly 4.0)
+
+# Copyright by Yoel Matveyev, 2021 
+# The GNU General Public License v3.0  
+
+# An expremental 128k memory bank of with a 64x32 display projecting
+# the address range #0080-#00FF. The lower memory range is reserved for things
+# such as the starting code for program initiation, ALU and I/O.
+
+# In this demo, two 16-bit cells containing #FFFF at the addresses #0200 and #0300
+# are periodically projected on the display, updated every 20480 generations.
+
+# The memory still lacks the synchronizing mechanism for choosing the address for each
+# of the square-shaped 128-byte segment of 64 16-bit words. The main address bus, 
+# which sets the current segment for XOR-writing and sequential reading, is fully operational.
+# The addresses and data are encoded by a pilot bit followed by 16 digits. Segment 
+# addresses above #3FF block the memory.
+
+# Created by Yoel Matveyev on February 15, 2012
+
 #R Fireworld2
 1 0 0 3 0
 2 0 0 0 1
