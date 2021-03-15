@@ -16,7 +16,7 @@
 # The addresses and data are encoded by a pilot bit followed by 16 digits. Segment 
 # addresses above #3FF block the memory.
 
-# Created by Yoel Matveyev on February 15, 2012
+# Created by Yoel Matveyev on February 15, 2021
 
 #R Fireworld2
 1 0 0 3 0
