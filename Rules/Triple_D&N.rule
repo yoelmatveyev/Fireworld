@@ -1,0 +1,72 @@
+@RULE Triple_D&N
+
+# D3a36a6a62a7a71a8a-08b17b26b3a35a4a44a53b6a62a7a71a8a
+
+# Two-color rule in which each color and 2-color mix behave like Day & Night
+# Copyright by Yoel Matveyev, 2021
+# The GNU General Public License v3.0 
+
+@COLORS
+
+0 0 0 0
+1 255 0 0
+2 0 0 255
+
+@TABLE
+
+n_states:3
+neighborhood:Moore
+symmetries:permute
+var A={0,1,2}
+var B=A
+var C=A
+var D=A
+var E=A
+var F=A
+var G=A
+var H=A
+var I=A
+
+var a={1,2}
+var b=a
+var b=a
+var c=a
+var d=a
+var e=a
+var f=a
+var g=a
+var h=a
+var i=a
+
+0,i,i,i,0,0,0,0,0,i
+0,1,1,1,2,2,2,2,2,2,1
+0,2,2,2,1,1,1,1,1,1,2
+0,i,i,i,i,i,i,0,0,i
+0,1,1,1,1,1,1,2,2,1
+0,2,2,2,2,2,2,1,1,2
+0,i,i,i,i,i,i,i,0,i
+0,1,1,1,1,1,1,1,2,1
+0,2,2,2,2,2,2,2,1,2
+0,i,i,i,i,i,i,i,i,i
+1,2,2,2,2,2,2,2,2,2
+2,1,1,1,1,1,1,1,1,1
+1,1,2,2,2,2,2,2,2,2
+2,2,1,1,1,1,1,1,1,1
+1,1,1,2,2,2,2,2,2,2
+2,2,2,1,1,1,1,1,1,1
+i,i,i,i,0,0,0,0,0,i
+1,1,1,1,2,2,2,2,2,1
+2,2,2,2,1,1,1,1,1,2
+i,i,i,i,i,0,0,0,0,i
+i,1,1,1,1,2,2,2,2,i
+1,1,1,1,1,1,2,2,2,2
+2,2,2,2,2,2,1,1,1,1
+i,i,i,i,i,i,i,0,0,i
+1,1,1,1,1,1,1,2,2,1
+2,2,2,2,2,2,2,1,1,2
+i,i,i,i,i,i,i,i,0,i
+1,1,1,1,1,1,1,1,2,1
+2,2,2,2,2,2,2,2,1,2
+i,i,i,i,i,i,i,i,i,i
+
+I,A,B,C,D,E,F,G,H,0
