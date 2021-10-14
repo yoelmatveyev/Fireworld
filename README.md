@@ -34,9 +34,7 @@ Something else worth noticing in this repository are Rule 110 units for **Brian'
 
 # Fireworld2
 
-This rule is the next generation of Fireworld, invented in December 2020, has been proven very successful for computation modelling. A fully operational computer in it was constructed and tested in October 2021. See my Izhora project:
-
-[a link](https://github.com/yoelmatveyev/Izhora) 
+This rule is the next generation of Fireworld, invented in December 2020, has been proven very successful for computation modelling. A fully operational computer in it was constructed and tested in October 2021. See my [Izhora project](https://github.com/yoelmatveyev/Izhora).
 
 It is a hybrid rule combining 03ajkr7/2ak/3 and a Wireworld-like wiring system.
 
