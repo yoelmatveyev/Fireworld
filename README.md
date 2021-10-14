@@ -34,11 +34,13 @@ Something else worth noticing in this repository are Rule 110 units for **Brian'
 
 # Fireworld2
 
-This promising experimental rule is the next generation of Fireworld, created in December 2020.
+This rule is the next generation of Fireworld, invented in December 2020, has been proven very successful for computation modelling. A fully operational computer in it was constructed and tested in October 2021. See my Izhora project:
+
+[a link](https://github.com/yoelmatveyev/Izhora) 
 
 It is a hybrid rule combining 03ajkr7/2ak/3 and a Wireworld-like wiring system.
 
-It is fully backward compatible with Fireworld, because the "electron" are running on the surface of the wires, which are implemented as the fourth, immutable state. The new rules are as follows:
+It is fully backward compatible with Fireworld, being a superset of Fireworld and thus Turing-complete. The "electron" are running on the surface of the wires, which are implemented as the fourth, immutable state. The new rules are as follows:
 
 **A cell is born, if surrounded by a living (State 1) cell and 2 or 3 wire cells.**
 
