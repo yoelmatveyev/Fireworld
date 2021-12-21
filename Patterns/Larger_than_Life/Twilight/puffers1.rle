@@ -1,0 +1,8 @@
+x = 68, y = 30, rule = R2,C0,S4,13-19,21-24,B4,12-19,21-24
+20b2o2$19bo$16bo$16bo22bo$16bo5b3o12bo2bo$34bo3bobo$15bo16bo5bobo$bo
+13b5o12b2o4b2o$2o6bo5bo2b2o18bo2bo$4bo4bobo2bobo14bo8bo10bob3o$3b2o7bo
+30b2o3bo7b2o$bo5bo4bo19b3o4bobobo3bo8bo6bobo$2bo3bo25bo2bo2bo3bo6bo7bo
+9bo$33b4o21bobo6bo$33b4o21bobo6bo$2bo3bo25bo2bo2bo3bo6bo7bo9bo$bo5bo4b
+o19b3o4bobobo3bo8bo6bobo$3b2o7bo30b2o3bo7b2o$4bo4bobo2bobo14bo8bo10bob
+3o$2o6bo5bo2b2o18bo2bo$bo13b5o12b2o4b2o$15bo16bo5bobo$34bo3bobo$16bo5b
+3o12bo2bo$16bo22bo$16bo$19bo2$20b2o!
