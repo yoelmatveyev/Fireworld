@@ -1,0 +1,19 @@
+x = 137, y = 319, rule = R2,C0,M1,S10..25,B4..4,NM
+58bobo$58bo2bo$62bo$51b4o3bo4bo$51bob2o3bo4bo$51b2obo4b2o$51b2obo$54bo
+28bobo21bobo$34bo18b2o2bo24bo3bo19bo3bo$53b2obob2o4bo16b2obob2o17b2obo
+b2o$36b2o43b2obob2o17b2obob2o$36bo22bo3b3o16bo3bo19bo3bo$30b2o19bo2b2o
+2b3obobo18bobo21bobo$29b4o20b4ob2o3bo$29b4o3bo16b4o5b2o$30b2o3bo18b2o
+6bo$34bo17bo5bo2bo$32bo20b2o$50b2o$50b2ob2o39bo13bo$50b2o41bobob2obobo
+b2obobo$48b4o39bobob3o7b3obobo$51bo3bo34bobo7bobo7bobo$48b3o38bo10b3o
+10bo$50bo3bo34bo10b3o10bo$52bo18b5o14bobo7bobo7bobo$51bo39bobob3o7b3ob
+obo$93bobob2obobob2obobo$94bo13bo79$21b3obo3bob3o59b3obo3bob3o$19bo15b
+o55bo15bo$17bobo15bobo51bobo15bobo$16bob2o15b2obo49bob2o15b2obo$15bo
+23bo47bo23bo$3bo11bo23bo11bo23bo11bo23bo11bo$o5bo9bo2bo15bo2bo9bo5bo
+17bo5bo9bo2bo15bo2bo9bo5bo2$3bo47bo23bo47bo$3bo47bo23bo47bo2$o5bo9bo2b
+o15bo2bo9bo5bo17bo5bo9bo2bo15bo2bo9bo5bo$3bo11bo23bo11bo23bo11bo23bo
+11bo$15bo23bo47bo23bo$16bob2o15b2obo49bob2o15b2obo$17bobo15bobo51bobo
+15bobo$19bo15bo55bo15bo$21b3obo3bob3o60bo9bo2$90bo17bo$90bo5b3ob3o12bo
+b2o9b2o$92bo5bobo5bo7bo6bo3bo6bo$93bo5bo5bo17bo$88bo45bo$87bo10bobo21b
+obo10bo$86bo6bo4b3o4bobo7bobo4b3o4bo6bo$86bo6bo4b3o4bobo7bobo4b3o4bo6b
+o$87bo10bobo21bobo10bo$88bo45bo$99bo23bo$90bo6bo3bo6bo5bo6bo3bo6bo$93b
+2o9b2obo7bob2o9b2o177$76b2o$75b4o$75b4o$76b2o!

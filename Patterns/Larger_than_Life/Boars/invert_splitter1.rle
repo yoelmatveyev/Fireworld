@@ -1,0 +1,9 @@
+x = 179, y = 65, rule = R2,C0,M1,S10..25,B4..4,NM
+55bo2$53b2o$49b2ob4o$48b4ob4o$48b4o2b4o$49b4ob2obo$51b3ob3o$51bob2obob
+o$50bo2b3o$60bobo$51bo11bo$52bo12b2o$54bo4bo$7bo45bo$56b3obobo$5b2o
+169b2o$b2ob4o134b2o31b4o$4ob4o132bo2b2o29b4o$4o2b4o132b2o31b4o$b4ob2ob
+o166b2o$3b3ob3o$3bob2obobo$2bo2b3o$12bobo$3bo11bo$4bo12b2o$6bo4bo$5bo$
+8b3obobo$59b2o2b2o$22b2o22b2o10b8o$21bo2b2o19bo2b2o8b8o$22b2o22b2o10b
+8o$59b2o2b2o10$176b2o$142b2o31b4o$141bo2b2o29b4o$142b2o31b4o$176b2o$
+56b3obobo$53bo$54bo4bo$52bo12b2o$51bo11bo$60bobo$50bo2b3o$51bob2obobo$
+51b3ob3o$49b4ob2obo$48b4o2b4o$48b4ob4o$49b2ob4o$53b2o2$55bo!

@@ -1,0 +1,12 @@
+x = 201, y = 104, rule = R2,C0,M1,S10..25,B4..4,NM
+7bo2$5b2o$b2ob4o$4ob4o$4o2b4o$b4ob2obo$3b3ob3o$3bob2obobo$2bo2b3o$12bo
+bo$3bo11bo$4bo12b2o$6bo4bo$5bo$8b3obobo2$22b2o22b2o$21bo2b2o19bo2b2o$
+22b2o22b2o5$48bo$47bo2b2o$47bob4o$46bo2b4o$50b2o$22b2o$21bo2b2o$22b2o$
+43bo$8b3obobo33bo$5bo39b2o$6bo4bo$4bo12b2o$3bo11bo$12bobo$2bo2b3o$3bob
+2obobo$3b3ob3o$b4ob2obo$4o2b4o$4ob4o$b2ob4o$5b2o2$7bo24$119b2o22b2o22b
+2o22b2o$118bo2b2o19bo2b2o19bo2b2o19bo2b2o$119b2o22b2o22b2o22b2o2$105b
+3obobo$102bo$103bo4bo90bo$101bo12b2o83bo$100bo11bo85bobo$109bobo86bobo
+$99bo2b3o94bo$100bob2obobo$100b3ob3o$98b4ob2obo86bo$97b4o2b4o86bo$97b
+4ob4o$98b2ob4o87bo$102b2o87bo4bo2$104bo86bo4bo$194bo$189bo6bo$186b3o7b
+o$185b2ob2o6bo$181bo2b5obo$183b5ob2o3bo$183b3o2b3o4bo$184bo2b2o4bo$
+185b5o2bo$184b4o2bo$184b4o$185b2o!

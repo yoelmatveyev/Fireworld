@@ -1,0 +1,14 @@
+x = 158, y = 87, rule = R2,C0,M1,S10..25,B4..4,NM
+81bo$78b2o$74b2ob4o$73b4ob4o2bo$73b4o2b4o$74b4ob2obo3bo$76b3ob3o3bo$
+76bob2obo2bo$78b3o$83bo$78bo8bo$82bo$83bo$53b2o29bo2bo$49b2ob4o29b2o$
+48b4ob4o35bobo21bobo21bobo12b2o$48b4o2b4obo35bo23bo23bo10b4o$49b4ob2ob
+o96b4o$51b3ob3o2b2o33bo23bo23bo10b4o$51bob2obo4bo30bobo21bobo21bobo12b
+2o$50bo2b3o$61bo$52bo8bo$56b2o$56bo4bo21b2o$57bo4bo19b4o$62bo19b4o$5b
+2o76b2o$b2ob4o$4ob4o$4o2b4obo$b4ob2obo$3b3ob3o2b2o$3bob2obo4bo$2bo2b3o
+$13bo$4bo8bo$8b2o$8bo4bo$9bo4bo$14bo$20bobo21bobo12b2o2b2o$23bo23bo10b
+8o$58b8o$23bo23bo10b8o$20bobo21bobo12b2o2b2o14$83b2o$62bo19b4o$57bo4bo
+19b4o$56bo4bo21b2o$56b2o$52bo8bo$61bo$50bo2b3o$51bob2obo4bo30bobo21bob
+o21bobo12b2o$51b3ob3o2b2o33bo23bo23bo10b4o$49b4ob2obo96b4o$48b4o2b4obo
+35bo23bo23bo10b4o$48b4ob4o35bobo21bobo21bobo12b2o$49b2ob4o29b2o$53b2o
+29bo2bo$83bo$82bo$78bo8bo$83bo$78b3o$76bob2obo2bo$76b3ob3o3bo$74b4ob2o
+bo3bo$73b4o2b4o$73b4ob4o2bo$74b2ob4o$78b2o$81bo!

@@ -1,0 +1,8 @@
+x = 125, y = 123, rule = R2,C0,M1,S10..25,B4..4,NM
+41b3o$40b5o$40b5o$41b3o7$41bobo$40bo3bo2$40bo3bo21$41bobo$40bo3bo2$40b
+o3bo15$5b2o2bo$b2ob4o$4ob4o2bo$4o2b4o$b4ob2obo2b2o$3b3ob3o2b2o$3bob2ob
+o3bo28bobo$5b3o32bo3bo$3bo$6bobo31bo3bo5$13bobo21bobo21bobo21bobo21bob
+o10b2o$16bo23bo23bo23bo23bo8b4o$121b4o$16bo23bo23bo23bo23bo8b4o$13bobo
+21bobo21bobo21bobo21bobo10b2o12$41bobo$40bo3bo2$40bo3bo21$41bobo$40bo
+3bo2$40bo3bo8b2o$52b3o$56bo2$53b3o2bo$49bo2b2ob2o$51bob5o$49bob2ob5o$
+51b3o2b3o$53b2o2bo$50bob5o$54b4o$54b4o$55b2o!
