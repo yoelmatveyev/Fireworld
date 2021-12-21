@@ -1,0 +1,19 @@
+x = 167, y = 525, rule = R5,C0,S9,28,61-91,93-110,112-120,B9,28,60-91,93-110,112-120
+48b2o$47bo9bo$46bo11bo$39b5obo13b3ob4o$39b5ob2o11b4ob4o$39b5obo13b3ob
+4o$46bo11bo$47bo9bo$48b2o3$31b3o$31b3o$31b3o$31b3o$31b3o2$31b3o$30bobo
+bo$29bo5bo$28bo7bo$28bo7bo8$29bo5bo$30bobobo$31b3o$31b3o$31b3o2$31b3o$
+31b3o$31b3o$31b3o52$90bobo2$82bo16bo$82bo8bo7bo$81bo17bo$81bo17bo$81bo
+17bo$81bo17bo$81bo17bo$82bo8bo7bo$82bo16bo2$90bobo87$77bobo77bobo$141b
+o$69bo16bo79bo$69bo8bo7bo71bo7bo$68bo17bo79bo$68bo17bo79bo$68bo17bo79b
+o$68bo17bo79bo$68bo17bo79bo$69bo8bo7bo71bo7bo$69bo16bo79bo$141bo$77bob
+o77bobo13$106b3o$106b3o$106b3o$106b3o$106b3o2$106b3o$105bobobo$104bo5b
+o$103bo7bo$103bo7bo21$14b5o$12b2o5b2o23$12b2o5b2o$14b5o16$104bo5bo2$
+106bobo$106bobo6$104bo2bo2bo$104bo2bo2bo$105bobobo$105bobobo$106b3o2$
+106b3o$12bo93b3o$13bo92b3o$106b3o$3bo10bo91b3o$2bo$bo13bo6$13bo$13bo
+61bobo$2o11bo$14bo52bo16bo$3bo7b2o2b2o50bo8bo7bo$4bo61bo17bo$5bo2b3o
+55bo17bo$19bo46bo17bo$19bo9bo36bo17bo$20bo10bo34bo17bo$21b3o9bo33bo8bo
+7bo$19bo14bo32bo16bo$19bo$17bo57bobo$17bo$17bo3$17bo$18bo$19bo11bo$30b
+o$21bo7bo$21bo121$57bobo30bobo$83bo$50bo32bo15bo$50bo40bo7bo$50bo16bo
+14bo16bo$50bo31bo16bo$50bo17bo30bo$50bo31bo16bo$50bo16bo14bo16bo$50bo
+40bo7bo$50bo32bo15bo$83bo$57bobo30bobo47$59bo22bo$59bo22bo$58bo24bo$
+58bo24bo$58bo24bo$58bo24bo$58bo24bo$59bo22bo$59bo22bo!

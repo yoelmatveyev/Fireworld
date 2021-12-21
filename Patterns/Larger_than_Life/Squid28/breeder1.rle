@@ -1,0 +1,8 @@
+#CXRLE Pos=-5,14
+x = 98, y = 75, rule = R5,C0,S9,28,61-91,93-110,112-120,B9,28,60-91,93-110,112-120
+2b9o7$o11bo$3bo5bo$o11bo7$b2o7b2o$4b2ob2o14$6bo$4bo3bo8$o11bo2$o11bo4$
+88bobo2$82bo14bo$2b9o86bo$97bo$80bo16bo$97bo$66b2o29bo$68b2o5bo4bo16bo
+$59b2o14bo21bo$26b5o28bobob2o10bo4bo16bo$26b5o28bo11bo3bo3bo$51bob5o
+14bo2bo4bo6bo2bo$54b3o16bo6bo$50b2o5bo16b2o$52b2o20b2o$51bobo5b2o14bo$
+51b2obo6bo$54b3o4bo12bo11bo$62bo$63bo23b2o$64b2o23b2o$69bo2b2o18b2o$
+73bo17bo2b3o$94b3o$91bo2b3o$92b2o$87b4o$86bo!

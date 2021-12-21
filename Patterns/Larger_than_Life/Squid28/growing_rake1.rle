@@ -1,0 +1,10 @@
+x = 144, y = 55, rule = R5,C0,S9,28,61-91,93-110,112-120,B9,28,60-91,93-110,112-120
+5bo$7bo$3bo5bo$4bo$3o14bo$17bo$3o14bo$3o14bo17b2o$3o14bo17b2o$17bo17b
+2o$17bo$7bo9bo$17bo39b4o$56bo4bo$38bo22bo17b2o$38bo16b2o$35b3o17b2o20b
+o8b2o38b2o5b2o$56b2o3bo23bo38b2o9b2o$56b2ob2o9b5obo41b4obo13bob5o$56bo
+b3o9b5obo9b2o30b4ob5o5b5ob5o$70b5obo41b4obo13bob5o$124b2o9b2o$126b2o5b
+2o$77b2o$126b2o5b2o6$126b2o5b2o$77b2o$126b2o5b2o$124b2o9b2o$70b5obo41b
+4obo13bob5o$56bob3o9b5obo9b2o30b4ob5o5b5ob5o$56b2ob2o9b5obo41b4obo13bo
+b5o$56b2o3bo23bo38b2o9b2o$35b3o17b2o20bo8b2o38b2o5b2o$38bo16b2o$38bo
+22bo17b2o$56bo4bo$17bo39b4o$7bo9bo$17bo$17bo17b2o$3o14bo17b2o$3o14bo
+17b2o$3o14bo$17bo$3o14bo$4bo$3bo5bo$7bo$5bo!
