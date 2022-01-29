@@ -1,9 +1,6 @@
-@RULE Seeds3
+@RULE Seeds3b
 
-# T2a
-
-# Copyright by Yoel Matveyev, 2020
-# The GNU General Public License v3.0
+# T2b
 
 @COLORS
 
@@ -38,6 +35,8 @@ var g=a
 var h=a
 var i=a
 
-0,i,i,0,0,0,0,0,0,i
+0,3,3,0,0,0,0,0,0,1
+0,1,1,0,0,0,0,0,0,2
+0,2,2,0,0,0,0,0,0,3
 
 I,A,B,C,D,E,F,G,H,0
