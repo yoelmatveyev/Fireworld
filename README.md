@@ -52,3 +52,8 @@ The last rule helps to "ignite" electrons on the wires by free photons.
 
 # FireWorld
 
+The same as above except that
+
+**A cell is born, if surrounded by 1 orthogonal, 1 diagonal neighboring live cells and 2 or 3 wire cells.**
+
+This meant to match the birth rule of the original Fireworld. 
