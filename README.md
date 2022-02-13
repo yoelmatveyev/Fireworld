@@ -40,8 +40,15 @@ It is a hybrid rule combining 03ajkr7/2ak/3 and a Wireworld-like wiring system.
 
 It is fully backward compatible with Fireworld, being a superset of Fireworld and thus Turing-complete. The "electrons" are running on the surface of the wires, which are implemented as the fourth, immutable state. The new rules are as follows:
 
-**A cell is born, if surrounded by a living (State 1) cell and 2 or 3 wire cells.**
+**A cell survives if surrounded by 7 live cells**
 
-**A cell is born, if surrounded by two horizontally adjacent living cells and 2 or 3 wire cells.**
+**A cell is born if surrounded by 1 live (State 1) cell and 2 or 3 wire cells.**
 
-The second rule ensures that Fireworld's photons easily "ignite" electrons on the wires.
+**A cell is born if surrounded by 2 horizontally adjacent living cells and 2 or 3 wire cells.**
+
+Importantly, a cell **can not survive next to wire cells**. 
+
+The last rule helps to "ignite" electrons on the wires by free photons.
+
+# FireWorld
+
