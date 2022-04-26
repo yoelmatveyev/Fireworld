@@ -57,3 +57,7 @@ The same as above except that
 **A cell is born, if surrounded by 1 orthogonal, 1 diagonal neighboring live cells and 2 or 3 wire cells.**
 
 This meant to match the birth rule of the original Fireworld. 
+
+# FireWorld+
+
+An experimental superset of FireWorld with 3 additional states. Two of them enable diagonal spaceships moving at the speed of light, which turn into regular electrons when they come next to 2 or 3 wire cells. One more state converts regular photons into diagonal ones. 100% backward compatible with FireWorld.
