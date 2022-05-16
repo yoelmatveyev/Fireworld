@@ -311,7 +311,7 @@ var h2=a2
 4,4,j,k,l,m,n,o,p,2
 0,i,4,k,l,m,5,o,p,4
 
-# Two greens cells react with two white cells, enabling an OR gate
+# Two green cells react with two white cells, enabling an OR gate
 
 0,6,b2,c2,d2,6,4,g2,4,4
 0,4,6,k,6,4,n,o,p,5
