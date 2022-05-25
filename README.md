@@ -40,8 +40,6 @@ It is a hybrid rule combining 03ajkr7/2ak/3 and a Wireworld-like wiring system.
 
 It is fully backward compatible with Fireworld, being a superset of Fireworld and thus Turing-complete. The "electrons" are running on the surface of the wires, which are implemented as the fourth, immutable state. The new rules are as follows:
 
-**A cell survives if surrounded by 7 live cells**
-
 **A cell is born if surrounded by 1 live (State 1) cell and 2 or 3 wire cells.**
 
 **A cell is born if surrounded by 2 horizontally adjacent living cells and 2 or 3 wire cells.**
@@ -58,6 +56,14 @@ The same as above except that
 
 This meant to match the birth rule of the original Fireworld. 
 
+There is variety called **FireWorld7**, which has the following additional element:
+
+**A cell survives if surrounded by 7 live cells**
+
+This turns 2x2 blocks into guns of period 3. All FireWorld patterns are expected to work identically under this rule, since a natural clash of 7 live cells is highly unlikely.
+
 # FireWorld+
 
 An experimental superset of FireWorld with 3 additional states. Two of them enable diagonal spaceships moving at the speed of light, which turn into regular electrons when they come next to 2 or 3 wire cells. One more state converts regular photons into diagonal ones. 100% backward compatible with FireWorld.
+
+Likewise, there is a variety called **FireWorld7+**
