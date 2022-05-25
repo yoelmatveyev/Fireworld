@@ -1,32 +1,35 @@
-@RULE FireWorld+
+@RULE FireWorld7+
 
 # Copyright by Yoel Matveyev, 2022
 # The GNU General Public License v3.0
 
-# This rule is a combination of two rules: FireWorld and a variety of Diaphotons.
+# This rule is a combination of two rules: FireWorld7 and a variety of Diaphotons.
 # The idea to combine these rules was partially inspired by Brian Prentice's rule Mites.
 
-# FireWorld is the redefinition of the old Fireworld (03ajkr/2ak/3), proven in itself to be capable 
-# of universal computation and to be suitable for constructing complex logic circuits.
+# FireWorld is the next generation of Fireworld (03ajkr/2ak/3), proven to be
+# capable in itself of universal computation and suitable for constructing complex logic circuits.
 
-# The new FireWorld is a hybrid rule combining 03ajkr/2ak/3 and a Wireworld-like
-# wiring system. It is fully backward compatible with the old Fireworld.
+# This variety is based on a slightly different substrate rule, 03ajkr7/2ak/3,
+# where 2x2 blocks turn into period 3 guns.
+
+# It is a hybrid rule combining 03ajkr7/2ak/3 and a Wireworld-like
+# wiring system. It's fully backward compatible with 03ajkr7/2ak/3 
+# and almost always backward compatible with the original old Fireworld.
 
 # Wires are implemented as the fourth, immutable state. The new rules are as follows:
 
 # 1. A cell is born, if surrounded by 1 living (state 1) cell and 2 or 3 wire cells (state 3).
 # 2. A cell is born, if surrounded by 1 orthogonal and 1 diagonal neighboring living cell and 2 or 3 wire cells.
 
-# The last rule matches the "2ak" behavior of Fireworld and helps to ignite electrons on wires by free photons.
+# The last rule mirrors the "2ak" behavior of Fireworld and helps to ignite electrons on wires by free photons.
 
 # Diaphotons is a simple rule that allows spaceships to travel diagonally at the maximum "speed of light".
-# This variety enables conversion of diagonal photons in certain positions into orthogonal ones.
 
 # The resulting combination rule allows to convert diaphotons to photons and electrons and vice versa.
-# Diaphotons have their own 2 states. Another extra state converts photons to diaphotons.
-# It also enables a diagonal diode and the OR gate. Interactions between diophotons enable the AND gate.
+# Diaphotons have their own 2 states. Another extra state converts photons to diaphtons.
+# It also enables a diagonal diode and the OR gate. Interaction between diophotons enables the AND gate.
 
-# As long as these 3 extra states are not used, the rule is 100% backward compatible with FireWorld.
+# As long as these extra states are not used, the rule is 100% backward compatible with FireWorld.
 
 @COLORS
 
@@ -61,7 +64,7 @@ var n=i
 var o=i
 var p=i
 
-# The original Fireworld rule from 2001
+# The substrate variety of the old Fireworld from 2001: 03ajkr7/2ak/3
 
 0,1,1,k,l,m,n,o,p,1
 0,1,j,k,1,m,n,o,p,1
@@ -70,6 +73,8 @@ var p=i
 1,1,j,1,1,m,n,o,p,1
 1,1,1,k,l,1,n,o,p,1
 1,1,j,1,l,m,1,o,p,1
+1,1,1,1,1,1,1,1,p,1
+1,1,1,1,1,1,1,o,1,1
 
 var a2={0,2,6}
 var b2=a2
