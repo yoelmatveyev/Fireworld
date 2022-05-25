@@ -301,13 +301,13 @@ var h2=a2
 0,6,j,k,l,1,n,o,p,4
 0,i,6,k,l,m,1,o,p,4
 
-# Two orthogonally ajacent green cells become red, enabling an AND gate
+# Two orthogonally adjacent green cells become red, enabling an AND gate
 
 0,4,4,k,l,m,n,o,p,1
 4,4,j,k,l,m,n,o,p,2
 0,i,4,k,l,m,5,o,p,4
 
-# Two greens cells react with two white cells, enabling an OR gate
+# Two green cells react with two white cells, enabling an OR gate
 
 0,6,b2,c2,d2,6,4,g2,4,4
 0,4,6,k,6,4,n,o,p,5
