@@ -12,7 +12,7 @@ prefix = False
 
 # Enter your (conditionally prefixed) rulestring
 
-name = "B02-m3-o4-m56S2m3o4m56H"
+name = "B2-m3-o4-m56S2m3o4m56H"
 
 b0 = b1 = b2o = b2m = b2p = b3o = b3m = b3p = b4o = b4m = b4p = b5 = b6 = False
 s0 = s1 = s2o = s2m = s2p = s3o = s3m = s3p = s4o = s4m = s4p = s5 = s6 = False
